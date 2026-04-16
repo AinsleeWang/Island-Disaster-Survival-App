@@ -17,4 +17,5 @@ local.properties
 google-services.json
 
 # Project exclude paths
-/app/src/main/res/drawable/
+/app/src/main/res/drawable/*.logcat
+*.logcat
