@@ -9,7 +9,6 @@ import kotlinx.coroutines.withContext
 class MedicalCardRepository(private val medicalCardDao: MedicalCardDao) {
 
     suspend fun saveMedicalCard(medicalCard: MedicalCardEntity) = withContext(Dispatchers.IO) {
-        medicalCardDao.insert(medicalCard)
         try {
             Log.d("MedicalCardRepository", "Saving medical card to database")
             medicalCardDao.insert(medicalCard)
