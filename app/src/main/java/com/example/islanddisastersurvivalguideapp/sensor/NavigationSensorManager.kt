@@ -5,8 +5,6 @@ import android.hardware.Sensor
 import android.hardware.SensorEvent
 import android.hardware.SensorEventListener
 import android.hardware.SensorManager
-import android.util.Log
-import kotlin.math.sqrt
 
 class NavigationSensorManager(private val context: Context) {
     private val sensorManager = context.getSystemService(Context.SENSOR_SERVICE) as SensorManager
@@ -14,20 +12,22 @@ class NavigationSensorManager(private val context: Context) {
     // 感測器
     private val accelerometer = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER)
     private val magnetometer = sensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD)
+    // 優先使用硬體計步器
     private val stepDetector = sensorManager.getDefaultSensor(Sensor.TYPE_STEP_DETECTOR)
 
-    // 數據緩衝
-    private val accelerometerReading = FloatArray(3)
-    private val magnetometerReading = FloatArray(3)
-    private val rotationMatrix = FloatArray(9)
-    private val orientationAngles = FloatArray(3)
+    // 數據緩衝 (加入 Low-Pass Filter 需要的變數)
+    private var gravity: FloatArray? = null
+    private var geomagnetic: FloatArray? = null
+
+    // 【面試考點】濾波係數 (Alpha)
+    // 0.97 代表：新的數值 = 97% 的舊數值 + 3% 的新數值
+    // 這樣可以過濾掉手抖的高頻雜訊
+    private val ALPHA = 0.97f
 
     // 步數檢測
-    private var lastStepTime = 0L
     private var stepCount = 0
-    private val STEP_DELAY_MS = 500 // 最小步數間隔
-    private val ACCELERATION_THRESHOLD = 10f // 加速度閾值
 
+    // 回調介面
     private var stepListener: ((Int) -> Unit)? = null
     private var directionListener: ((Float) -> Unit)? = null
 
@@ -35,43 +35,36 @@ class NavigationSensorManager(private val context: Context) {
         override fun onSensorChanged(event: SensorEvent) {
             when (event.sensor.type) {
                 Sensor.TYPE_ACCELEROMETER -> {
-                    System.arraycopy(event.values, 0, accelerometerReading, 0, 3)
-                    detectStep(event.values)
+                    // 套用低通濾波
+                    gravity = lowPass(event.values.clone(), gravity)
                     updateOrientationAngles()
                 }
                 Sensor.TYPE_MAGNETIC_FIELD -> {
-                    System.arraycopy(event.values, 0, magnetometerReading, 0, 3)
+                    // 套用低通濾波
+                    geomagnetic = lowPass(event.values.clone(), geomagnetic)
                     updateOrientationAngles()
                 }
                 Sensor.TYPE_STEP_DETECTOR -> {
-                    onStepDetected()
+                    // 如果手機有硬體計步器，直接用這個，最準最省電
+                    if (event.values[0] == 1.0f) {
+                        onStepDetected()
+                    }
                 }
             }
         }
 
         override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
-            if (accuracy == SensorManager.SENSOR_STATUS_UNRELIABLE) {
-                Log.w("Sensors", "Unreliable sensor accuracy")
-            }
+            // 面試可提：如果精度變低 (Unreliable)，可提示用戶畫 8 字校正
         }
     }
 
-    private fun detectStep(acceleration: FloatArray) {
-        val currentTime = System.currentTimeMillis()
-        if (currentTime - lastStepTime < STEP_DELAY_MS) return
-
-        // 計算合成加速度
-        val magnitude = sqrt(
-            acceleration[0] * acceleration[0] +
-                    acceleration[1] * acceleration[1] +
-                    acceleration[2] * acceleration[2]
-        )
-
-        // 檢測步伐
-        if (magnitude > ACCELERATION_THRESHOLD) {
-            onStepDetected()
-            lastStepTime = currentTime
+    // 【面試考點】低通濾波演算法實作
+    private fun lowPass(input: FloatArray, output: FloatArray?): FloatArray {
+        if (output == null) return input
+        for (i in input.indices) {
+            output[i] = output[i] * ALPHA + input[i] * (1 - ALPHA)
         }
+        return output
     }
 
     private fun onStepDetected() {
@@ -80,49 +73,36 @@ class NavigationSensorManager(private val context: Context) {
     }
 
     private fun updateOrientationAngles() {
-        if (SensorManager.getRotationMatrix(
-                rotationMatrix,
-                null,
-                accelerometerReading,
-                magnetometerReading
-            )
-        ) {
-            val orientation = SensorManager.getOrientation(rotationMatrix, orientationAngles)
-            val degrees = Math.toDegrees(orientation[0].toDouble()).toFloat()
-            val normalizedDegrees = (degrees + 360) % 360
+        if (gravity != null && geomagnetic != null) {
+            val R = FloatArray(9)
+            val I = FloatArray(9)
 
-            directionListener?.invoke(normalizedDegrees)
+            // 傳感器融合 (Sensor Fusion): 結合加速度與磁力算出旋轉矩陣
+            if (SensorManager.getRotationMatrix(R, I, gravity, geomagnetic)) {
+                val orientation = FloatArray(3)
+                SensorManager.getOrientation(R, orientation)
+
+                // 將弧度轉為角度 (0~360度)
+                var azimuth = Math.toDegrees(orientation[0].toDouble()).toFloat()
+                if (azimuth < 0) azimuth += 360f
+
+                directionListener?.invoke(azimuth)
+            }
         }
     }
 
     fun startListening() {
         stepCount = 0
-
-        // 註冊所有需要的感測器
-        sensorManager.registerListener(
-            sensorEventListener,
-            accelerometer,
-            SensorManager.SENSOR_DELAY_NORMAL
-        )
-
-        sensorManager.registerListener(
-            sensorEventListener,
-            magnetometer,
-            SensorManager.SENSOR_DELAY_NORMAL
-        )
-
+        // SENSOR_DELAY_GAME 適合導航，延遲適中且流暢
+        sensorManager.registerListener(sensorEventListener, accelerometer, SensorManager.SENSOR_DELAY_GAME)
+        sensorManager.registerListener(sensorEventListener, magnetometer, SensorManager.SENSOR_DELAY_GAME)
         stepDetector?.let {
-            sensorManager.registerListener(
-                sensorEventListener,
-                it,
-                SensorManager.SENSOR_DELAY_NORMAL
-            )
+            sensorManager.registerListener(sensorEventListener, it, SensorManager.SENSOR_DELAY_UI)
         }
     }
 
     fun stopListening() {
         sensorManager.unregisterListener(sensorEventListener)
-        stepCount = 0
     }
 
     fun setStepListener(listener: (Int) -> Unit) {

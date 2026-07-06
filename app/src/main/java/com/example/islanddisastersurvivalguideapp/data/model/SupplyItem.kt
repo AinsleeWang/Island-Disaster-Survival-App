@@ -1,10 +1,15 @@
 package com.example.islanddisastersurvivalguideapp.data.model
 
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import com.google.firebase.database.IgnoreExtraProperties
 
+@Entity(tableName = "supplies")
 @IgnoreExtraProperties
 data class SupplyItem(
+    @PrimaryKey
     val id: String = "",
+
     val name: String = "",
     val category: String = "",
     val number: String = "",
@@ -12,7 +17,7 @@ data class SupplyItem(
     val disasterType: String = "",
     val imageUriString: String? = null
 ) {
-    // 用於 Firebase 序列化的無參數構造函數
+    // 空建構子保留給 Firebase 或 Room 使用皆可
     constructor() : this("", "", "", "", "", "", null)
 
     fun toMap(): Map<String, Any?> {

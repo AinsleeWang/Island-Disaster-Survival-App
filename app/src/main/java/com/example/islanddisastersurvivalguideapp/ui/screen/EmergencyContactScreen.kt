@@ -56,7 +56,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.core.content.ContextCompat
-import com.example.islanddisastersurvivalguideapp.SupplyViewModel
+import com.example.islanddisastersurvivalguideapp.viewmodel.SupplyViewModel
 import com.example.islanddisastersurvivalguideapp.viewmodel.MedicalCardViewModel
 import com.google.android.gms.location.LocationServices
 
