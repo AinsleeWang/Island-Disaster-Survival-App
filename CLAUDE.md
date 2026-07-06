@@ -99,7 +99,6 @@ islanddisastersurvivalguideApp3/
 
 | Severity | Location | Issue |
 |---|---|---|
-| High | `MedicalCardRepository.kt:12-15` | `medicalCardDao.insert()` called twice — duplicate insert bug |
 | High | `MorseCodePlayer.kt` | Morse map incomplete — only digits 0–9, letters N and E defined; most alphabet missing |
 | High | `MorseAlarmViewModel` | Location hardcoded to Kaohsiung test coordinates; not connected to actual GPS |
 | Medium | `SupplyRepository.kt:1` | Wrong package name (`disasterpreparednessapp` vs `islanddisastersurvivalguideapp`) — incomplete rename |
@@ -112,7 +111,7 @@ islanddisastersurvivalguideApp3/
 ## 5. Remaining Tasks
 
 **P0 — Bugs to fix before any release:**
-1. Fix duplicate `insert` call in `MedicalCardRepository`
+1. ~~Fix duplicate `insert` call in `MedicalCardRepository`~~ (fixed 2026-07-06)
 2. Complete Morse code alphabet mapping (A–Z + punctuation)
 3. Connect `MorseAlarmViewModel` to real GPS location instead of hardcoded test value
 
