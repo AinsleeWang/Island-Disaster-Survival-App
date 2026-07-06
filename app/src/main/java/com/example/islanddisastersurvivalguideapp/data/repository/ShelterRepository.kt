@@ -14,7 +14,7 @@ class ShelterRepository(private val context: Context) {
             Log.d("ShelterRepository", "開始從本地資源載入避難所資料")
 
             // 從 assets 資料夾讀取 JSON 檔案
-            val jsonString = context.assets.open("ShelterInTaipei.geojson")
+            val jsonString = context.assets.open("ShelterInTainan.geojson")
                 .bufferedReader()
                 .use { it.readText() }
 

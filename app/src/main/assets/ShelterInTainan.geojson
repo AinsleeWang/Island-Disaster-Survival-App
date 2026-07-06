@@ -1,0 +1,8678 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD731-0001",
+        "name": "臺南市後壁區公所",
+        "address": "後壁區129號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 60
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.36197,
+          23.36613
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD731-0002",
+        "name": "土溝里活動中心",
+        "address": "後壁區56-18號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 60
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3871053,
+          23.3736364
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD731-0005",
+        "name": "上茄苳里活動中心",
+        "address": "後壁區46-28號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3825957,
+          23.3872074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD731-0007",
+        "name": "後壁侯伯聯合活動中心",
+        "address": "後壁區後壁193號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3663576,
+          23.3675426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD731-0012",
+        "name": "菁豐里活動中心",
+        "address": "後壁區菁豐74號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 60
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.346632,
+          23.377994
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD731-0015",
+        "name": "新嘉里活動中心",
+        "address": "後壁區16鄰172號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 60
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.310790251,
+          23.371511774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD731-0019",
+        "name": "烏樹里活動中心",
+        "address": "後壁區烏樹林28之5號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 60
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.37786,
+          23.3350187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD731-0021",
+        "name": "新嘉國小",
+        "address": "後壁區新嘉210-2號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3095987,
+          23.3727036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD731-0022",
+        "name": "菁寮國小",
+        "address": "後壁區菁寮282號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3392414,
+          23.3791071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD731-0023",
+        "name": "新東國小",
+        "address": "後壁區下⾧81號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3159257,
+          23.3444873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD731-0025",
+        "name": "樹人國小",
+        "address": "後壁區5鄰烏樹林145號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3771894,
+          23.3293093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD731-0026",
+        "name": "安溪國小",
+        "address": "後壁區5號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3609063,
+          23.332898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD731-0029",
+        "name": "後壁國小",
+        "address": "後壁區195號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3662453,
+          23.3665938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD732-0001",
+        "name": "白河區公所",
+        "address": "白河區中山路111號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 70
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.41574105539,
+          23.3512196478239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD732-0003",
+        "name": "河東國小",
+        "address": "白河區河東83-1號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.437765,
+          23.344563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD732-0004",
+        "name": "河東國小六溪分校",
+        "address": "白河區六溪26號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 112
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.45905,
+          23.309542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD732-0005",
+        "name": "仙草實小",
+        "address": "白河區仙草22號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 166
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.47409059479543,
+          23.34489064478152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD732-0006",
+        "name": "仙草實小關嶺分校",
+        "address": "白河區關嶺94之3號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 80
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.507036,
+          23.330987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD732-0007",
+        "name": "白河國中",
+        "address": "白河區三間厝220號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.4239382,
+          23.3618419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD732-0008",
+        "name": "白河國小",
+        "address": "白河區三民路448號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.4139539,
+          23.3521971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD732-0009",
+        "name": "竹門國小",
+        "address": "白河區113號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 95
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.44491038655246,
+          23.376743677837183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD732-0010",
+        "name": "大竹國小",
+        "address": "白河區3號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 80
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.41293578253875,
+          23.36821446733929
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD732-0011",
+        "name": "內角國小",
+        "address": "白河區內角1號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 280
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.44073278342714,
+          23.397589058052684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD732-0012",
+        "name": "玉豐國小",
+        "address": "白河區85號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 520
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.416500774256,
+          23.379449398349212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD732-0013",
+        "name": "大林社區活動中心",
+        "address": "白河區檨子林20之16號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 165
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.44106996521516,
+          23.336029225945225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD733-0001",
+        "name": "青山國小",
+        "address": "東山區16號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 150
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.46734,
+          23.28047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD733-0002",
+        "name": "東山區公所綜合大樓",
+        "address": "東山區225-1號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 160
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.40384,
+          23.3261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD733-0003",
+        "name": "東原老人文康活動中心",
+        "address": "東山區東原8號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 150
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.44649,
+          23.2655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD733-0004",
+        "name": "東原國中",
+        "address": "東山區70號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1250
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.4523,
+          23.27266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD733-0005",
+        "name": "東山國小",
+        "address": "東山區青葉路二段49號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 720
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.40463,
+          23.3233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD733-0006",
+        "name": "東山國中",
+        "address": "東山區青葉路㇐段132號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 900
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.40284,
+          23.31684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD733-0007",
+        "name": "聖賢國小",
+        "address": "東山區田尾29號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.36271,
+          23.30597
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD733-0008",
+        "name": "吉貝耍國小",
+        "address": "東山區15號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.38611,
+          23.29473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD737-0001",
+        "name": "臺南市鹽水區公所",
+        "address": "鹽水區鹽水區中山路47號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 180
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.266129,
+          23.319996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD737-0002",
+        "name": "臺南市鹽水區鹽水國中",
+        "address": "鹽水區鹽水區三福路63號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 530
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.267765,
+          23.319261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD737-0003",
+        "name": "臺南市鹽水區鹽水國小",
+        "address": "鹽水區鹽水區朝琴路137號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 390
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.271654,
+          23.322879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD737-0004",
+        "name": "臺南市鹽水區月津國小",
+        "address": "鹽水區鹽水區月津路16號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 770
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.270544,
+          23.310592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD737-0005",
+        "name": "臺南市鹽水區岸內國小",
+        "address": "鹽水區鹽水區新岸內96號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.260902,
+          23.329767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD737-0006",
+        "name": "臺南市鹽水區竹埔國小",
+        "address": "鹽水區鹽水區竹埔92-1號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 340
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.246178,
+          23.267287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD737-0007",
+        "name": "臺南市鹽水區坔頭港國小",
+        "address": "鹽水區坔頭港202號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 320
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.249861,
+          23.25488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD737-0008",
+        "name": "臺南市鹽水區歡雅國小",
+        "address": "鹽水區鹽水區歡雅31號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.243335,
+          23.292587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD737-0009",
+        "name": "臺南市鹽水區老人文康中心",
+        "address": "鹽水區治水路254-1號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 170
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.263437,
+          23.318244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD737-0010",
+        "name": "臺南市鹽水區仁光國小",
+        "address": "鹽水區舊營117號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 220
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.257518,
+          23.300263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD737-0012",
+        "name": "文昌里孫厝活動中心",
+        "address": "鹽水區鹽水區孫厝寮76-1號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.222466,
+          23.293568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD730-0001",
+        "name": "臺南市新營區公所",
+        "address": "新營區中正路30號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 150
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.31658,
+          23.31019
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD730-0002",
+        "name": "臺南市新營區大宏王公社區活動中心",
+        "address": "新營區民族路21-62號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 150
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.31811,
+          23.30933
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD730-0003",
+        "name": "臺南市新營區太子爺廟香客大樓",
+        "address": "新營區太子宮45-9號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 150
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.27383,
+          23.29513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD730-0004",
+        "name": "臺南市新營區南新國民中學",
+        "address": "新營區民治路65號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.30915,
+          23.30951
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD730-0005",
+        "name": "臺南市新營區太子國民中學",
+        "address": "新營區太北里140之21號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 400
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.271666,
+          23.291707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD730-0006",
+        "name": "臺南市新營區新泰國民小學",
+        "address": "新營區東學路77號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.32603,
+          23.31625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD730-0007",
+        "name": "臺南市新營區新興國民小學",
+        "address": "新營區太南里316號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.27604,
+          23.28758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD730-0008",
+        "name": "臺南市新營區新營國民小學",
+        "address": "新營區中正路4號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1420
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.31648,
+          23.3065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD730-0009",
+        "name": "臺南市新營區南梓實驗小學",
+        "address": "新營區建業路191號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2988,
+          23.29741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD730-0010",
+        "name": "臺南市新營區公誠國民小學",
+        "address": "新營區公誠街5號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 650
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.31886,
+          23.30449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD730-0011",
+        "name": "臺南市新營區新生國民小學",
+        "address": "新營區52號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 550
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.25843,
+          23.275711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD730-0012",
+        "name": "臺南市新營區新民國民小學",
+        "address": "新營區公園路㇐段136號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.305804,
+          23.304707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD730-0013",
+        "name": "臺南市新營區土庫國民小學",
+        "address": "新營區71之1號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.34535,
+          23.31937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD730-0014",
+        "name": "臺南市新營區新橋國民小學",
+        "address": "新營區鐵線橋1號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 400
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.27784,
+          23.26816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD730-0015",
+        "name": "臺南市新營區新進國民小學",
+        "address": "新營區中正路41號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 850
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.31571,
+          23.31569
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD736-0001",
+        "name": "臺南市柳營區公所",
+        "address": "柳營區柳營路二段59號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.311527,
+          23.27839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD736-0002",
+        "name": "臺南市柳營區圖書館",
+        "address": "柳營區柳營路二段59號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.311527,
+          23.27839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD736-0003",
+        "name": "臺南市柳營區果毅後多功能活動中心",
+        "address": "柳營區果毅後284-5號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.367211,
+          23.257397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD736-0004",
+        "name": "臺南市柳營區柳營聯合活動中心",
+        "address": "柳營區中山西路二段19巷35號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 450
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.317617,
+          23.2771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD736-0005",
+        "name": "臺南市柳營區小腳腿多功活動中心",
+        "address": "柳營區小脚腿226-1號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.367926,
+          23.290485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD736-0009",
+        "name": "臺南市柳營區柳營國民中學",
+        "address": "柳營區中山東路二段956號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 750
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.331456,
+          23.279702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD736-0011",
+        "name": "臺南市柳營區重溪國小運動場",
+        "address": "柳營區義士路2段2號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.364108,
+          23.286206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD736-0012",
+        "name": "臺南市柳營區果毅國小運動場",
+        "address": "柳營區果毅後61號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.371881,
+          23.257971
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD736-0014",
+        "name": "敏惠醫護專科學校",
+        "address": "柳營區中山東路二段1116號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1400
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.329702,
+          23.279881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD736-0015",
+        "name": "柳營科技工業區服務中心",
+        "address": "柳營區工㇐路7號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3584,
+          23.28262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD727-0002",
+        "name": "臺南市北門區公所",
+        "address": "北門區舊埕108號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.12547,
+          23.26781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD727-0003",
+        "name": "臺南市北門區北門國小",
+        "address": "北門區舊埕3號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 900
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.12511,
+          23.2655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD727-0004",
+        "name": "臺南市北門區蚵寮國小",
+        "address": "北門區蚵寮791號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.13781,
+          23.28698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD727-0005",
+        "name": "臺南市北門區老人文康活動中心",
+        "address": "北門區66號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.12539,
+          23.26593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD726-0001",
+        "name": "學甲區公所",
+        "address": "學甲區華宗路313號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.18228,
+          23.230497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD726-0002",
+        "name": "慈福里活動中心",
+        "address": "學甲區民生路1號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.183491,
+          23.230335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD726-0003",
+        "name": "福利基金會附設伯利恆兒童發展中心",
+        "address": "學甲區中學路95號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 60
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.182693,
+          23.236902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD726-0004",
+        "name": "臺南市立學甲國民中學",
+        "address": "學甲區華宗路540號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 950
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.185152,
+          23.237541
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD726-0005",
+        "name": "東陽國小活動中心",
+        "address": "學甲區華宗路260號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.18316,
+          23.229304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD726-0006",
+        "name": "學甲國小體育館",
+        "address": "學甲區㇐秀30號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.174943,
+          23.236888
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD726-0007",
+        "name": "中洲國小禮堂",
+        "address": "學甲區中洲645號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1030
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.160471,
+          23.245684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD726-0008",
+        "name": "學甲區綜合體育館",
+        "address": "學甲區建國路37-7號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 250
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.181421,
+          23.229815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD725-0001",
+        "name": "老人文康活動中心",
+        "address": "將軍區忠興180-50號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.160563,
+          23.201284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD725-0002",
+        "name": "漚汪國民小學",
+        "address": "將軍區⾧榮4號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 560
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.159333,
+          23.19807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD725-0003",
+        "name": "苓和國民小學",
+        "address": "將軍區苓和132號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.161382,
+          23.21939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD725-0004",
+        "name": "將軍國民中學",
+        "address": "將軍區昌平1-1號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.150654,
+          23.206327
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD725-0005",
+        "name": "將軍國民小學",
+        "address": "將軍區將貴58號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.136106,
+          23.214938
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD724-0002",
+        "name": "臺南市七股區義合里多功能活動中心",
+        "address": "七股區義合72之2號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 70
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.142238,
+          23.101544
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD724-0004",
+        "name": "臺南市七股區龍山里漁民活動中心",
+        "address": "七股區龍山211-33號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 160
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.114595696012,
+          23.1374183951259
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD724-0005",
+        "name": "臺南市七股區大潭里漁民活動中心",
+        "address": "七股區台潭28-6號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.132624,
+          23.187965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD724-0006",
+        "name": "臺南市七股區大埕里漁民活動中心",
+        "address": "七股區大埕271-1號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 60
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.141837,
+          23.144665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD724-0007",
+        "name": "臺南市七股區城內里活動中心",
+        "address": "七股區城內16-3號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.143041,
+          23.178626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD724-0008",
+        "name": "臺南市七股區樹林社區活動中心",
+        "address": "七股區樹林5-8號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 70
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.156958,
+          23.114536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD724-0009",
+        "name": "行政院國軍退除役官兵輔導委員會佳里榮譽國民之家",
+        "address": "七股區三股147號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 21
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.123064,
+          23.104616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD724-0010",
+        "name": "臺南市七股區私立昭明國中",
+        "address": "七股區大埕315號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 170
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.142161,
+          23.142496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD724-0011",
+        "name": "臺南市七股區三股國小操場",
+        "address": "七股區三股100號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.116966,
+          23.101856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD724-0012",
+        "name": "臺南市七股區後港國小操場",
+        "address": "七股區台潭1號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.136865,
+          23.184546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD724-0013",
+        "name": "臺南市七股區佳里國中後港校區操場",
+        "address": "七股區頂潭93號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.134632,
+          23.188103
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD724-0014",
+        "name": "臺南市七股區竹橋國小操場",
+        "address": "七股區竹橋130號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.158884,
+          23.101748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD722-0001",
+        "name": "臺南市佳里區佳里國小",
+        "address": "佳里區15鄰公園路445號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 775
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.17225,
+          23.164155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD722-0002",
+        "name": "臺南市佳里區仁愛國小",
+        "address": "佳里區13鄰仁愛路307號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 325
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.179334,
+          23.153466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD722-0003",
+        "name": "臺南市佳里區信義國小",
+        "address": "佳里區11鄰信義㇐街336號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 510
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.182087,
+          23.159875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD722-0004",
+        "name": "臺南市佳里區子龍國小",
+        "address": "佳里區14鄰麻佳路三段370巷88號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 280
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.201941,
+          23.174209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD722-0005",
+        "name": "臺南市佳里區佳興國小",
+        "address": "佳里區13鄰麻興路二段636號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 660
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.192786,
+          23.189405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD722-0006",
+        "name": "臺南市佳里區延平國小",
+        "address": "佳里區15鄰頂廍136號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 465
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.152523,
+          23.178785
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD722-0007",
+        "name": "臺南市佳里區通興國小",
+        "address": "佳里區14鄰埔頂5-1號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 230
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.157822,
+          23.143961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD722-0008",
+        "name": "臺南市佳里區塭內國小",
+        "address": "佳里區3鄰塭子內40號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 350
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.164966,
+          23.125591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD722-0009",
+        "name": "臺南市佳里區佳里國中",
+        "address": "佳里區16鄰安南路523號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1910
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.170672,
+          23.157954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD722-0010",
+        "name": "臺南市佳里區佳興國中",
+        "address": "佳里區宅興二街59號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.195871,
+          23.183198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD722-0011",
+        "name": "臺南市佳里區北門農工",
+        "address": "佳里區9鄰六安117號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.18111,
+          23.17594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD722-0012",
+        "name": "臺南市佳里區北門高中",
+        "address": "佳里區15鄰六安269號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 585
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.177342,
+          23.167732
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD722-0014",
+        "name": "臺南市佳里區公所",
+        "address": "佳里區18鄰忠孝路5號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.177039,
+          23.165142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD722-0016",
+        "name": "臺南市佳里區興化社區活動中心",
+        "address": "佳里區7鄰佳里興545-11號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 215
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.185965,
+          23.187598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD722-0017",
+        "name": "臺南市佳里區六里活動中心",
+        "address": "佳里區7鄰佳東路327巷20號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 150
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.182177,
+          23.161116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD722-0018",
+        "name": "臺南市佳里區佳福寺",
+        "address": "佳里區5鄰營頂102號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.191697,
+          23.198697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD723-0001",
+        "name": "永樂里活動中心",
+        "address": "西港區大塭寮59-35號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 170
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.179019,
+          23.103967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD723-0002",
+        "name": "港東里活動中心",
+        "address": "西港區烏竹林58-5號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 190
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.216094,
+          23.123139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD723-0003",
+        "name": "慶安社區活動中心",
+        "address": "西港區新興街107巷32號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.200301,
+          23.12379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD723-0004",
+        "name": "西港區老人文康活動中心",
+        "address": "西港區後營1-2號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 460
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.215876,
+          23.139342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD723-0005",
+        "name": "西港區圖書館",
+        "address": "西港區中山路370號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 210
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.203326,
+          23.123446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD723-0006",
+        "name": "後營國小金砂分校",
+        "address": "西港區砂凹子10-1號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 160
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.205457,
+          23.15699
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD723-0007",
+        "name": "私立港明中學",
+        "address": "西港區慶安路229號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 150
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.195728,
+          23.119147
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD723-0008",
+        "name": "成功國小",
+        "address": "西港區大竹林11號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 650
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.180449,
+          23.121407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD723-0009",
+        "name": "西港國中",
+        "address": "西港區文化路41號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 180
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.204986,
+          23.124172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD723-0010",
+        "name": "新復里活動中心",
+        "address": "西港區溪埔寮19-9號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 160
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.184563,
+          23.085166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD735-0001",
+        "name": "臺南市下營區公所",
+        "address": "下營區中山路1段170號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 60
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.264338,
+          23.235429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD735-0002",
+        "name": "臺南市下營區下營國小",
+        "address": "下營區中山路二段72號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 305
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.260519,
+          23.23156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD735-0004",
+        "name": "臺南市下營區下營地區民眾活動中心",
+        "address": "下營區大孝街1號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 140
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.26257,
+          23.239711
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD735-0006",
+        "name": "臺南市下營區下營國中",
+        "address": "下營區中山路㇐段412號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1330
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.271449,
+          23.239045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD735-0010",
+        "name": "臺南市下營區中營地區民眾活動中心",
+        "address": "下營區茅港尾81-1號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 425
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.284032,
+          23.219356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD735-0012",
+        "name": "臺南市下營區中營國小",
+        "address": "下營區中營270號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 80
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.276394,
+          23.213298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD735-0014",
+        "name": "臺南市下營區賀建國小",
+        "address": "下營區麻豆寮49號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 135
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.296846,
+          23.254404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD735-0015",
+        "name": "臺南市下營區甲中里活動中心",
+        "address": "下營區十六甲29-1號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 70
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.273932,
+          23.250748
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD735-0016",
+        "name": "臺南市下營區東興國小",
+        "address": "下營區東興㇐街112號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 875
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.267177,
+          23.238956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD734-0004",
+        "name": "臺南市六甲區大丘里活動中心",
+        "address": "六甲區大丘園5號派出所旁",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.436862,
+          23.219372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD734-0005",
+        "name": "臺南市六甲區龜港里活動中心",
+        "address": "六甲區龜子港80巷38弄8號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.31444,
+          23.2517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD734-0006",
+        "name": "臺南市六甲區菁埔里活動中心",
+        "address": "六甲區菁埔83號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 150
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.302508,
+          23.236217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD734-0009",
+        "name": "臺南市六甲區七甲龍湖聯合多功能活動中心",
+        "address": "六甲區七甲街89巷2號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.345192,
+          23.221966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD734-0012",
+        "name": "臺南市六甲區六甲國小",
+        "address": "六甲區中正路319號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 700
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.350282,
+          23.225895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD734-0013",
+        "name": "臺南市六甲區六甲國中",
+        "address": "六甲區民權街43號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 400
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.34889,
+          23.227405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD734-0014",
+        "name": "臺南市六甲區林鳳國小",
+        "address": "六甲區中社240號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.325519,
+          23.238593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD734-0017",
+        "name": "臺南市六甲區公所",
+        "address": "六甲區中山路202號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.347466,
+          23.231847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD734-0018",
+        "name": "臺南市六甲區多功能運動公園",
+        "address": "六甲區和平街479號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.343529,
+          23.231909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD721-0001",
+        "name": "麻豆代天府",
+        "address": "麻豆區關帝廟60號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.260063,
+          23.19022
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD721-0002",
+        "name": "麻豆太子宮",
+        "address": "麻豆區安業272-3號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 700
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.244592,
+          23.161635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD721-0003",
+        "name": "臺南市麻豆區公所",
+        "address": "麻豆區忠孝路250號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.258442,
+          23.18488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD721-0005",
+        "name": "國立曾文高級農工職業學校",
+        "address": "麻豆區南勢1號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1750
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.262621,
+          23.187457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD721-0006",
+        "name": "麻豆國中",
+        "address": "麻豆區南勢36號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 2600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.259968,
+          23.18295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD721-0007",
+        "name": "臺南市麻豆區麻口社區活動中心",
+        "address": "麻豆區麻豆口54號之6",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.218645,
+          23.180041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD721-0008",
+        "name": "麻豆國小",
+        "address": "麻豆區文昌路18號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 400
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.253325,
+          23.186292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD721-0009",
+        "name": "文正國小",
+        "address": "麻豆區南勢86號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.266082,
+          23.187542
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD721-0010",
+        "name": "國立曾文高級家商職業學校",
+        "address": "麻豆區和平路9號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 2000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.246101,
+          23.178379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD720-0001",
+        "name": "臺南市官田區公所",
+        "address": "官田區中山路㇐段132號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.315337,
+          23.193142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD720-0002",
+        "name": "臺南市官田區東西庄社區活動中心",
+        "address": "官田區西庄125號之2",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 110
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.296364,
+          23.188379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD720-0003",
+        "name": "臺南市官田區官田社區活動中心",
+        "address": "官田區官田315號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.339022,
+          23.185762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD720-0004",
+        "name": "臺南市官田區南廍里活動中心",
+        "address": "官田區南廍65號之2",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.304457,
+          23.212527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD720-0005",
+        "name": "臺南市官田區渡拔國民小學",
+        "address": "官田區拔林77號之1",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 390
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326549,
+          23.171137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD720-0006",
+        "name": "臺南市官田區官田國民小學",
+        "address": "官田區官田11號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 590
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.34199,
+          23.188745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD720-0007",
+        "name": "臺南市官田區隆田國民小學",
+        "address": "官田區中山路㇐段127號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 910
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.314781,
+          23.192291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD720-0008",
+        "name": "臺南市官田區體育公園",
+        "address": "官田區隆林路28號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 250
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3150342,
+          23.1899615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD742-0001",
+        "name": "臺南市大內區大內國小",
+        "address": "大內區大內63號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 240
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.360406,
+          23.118898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD742-0002",
+        "name": "臺南市大內區環湖社區活動中心",
+        "address": "大內區環湖56號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.418173,
+          23.147655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD742-0003",
+        "name": "臺南市大內區頭社社區活動中心",
+        "address": "大內區頭社10-1號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.384745,
+          23.143336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD742-0004",
+        "name": "臺南市大內區曲溪社區活動中心",
+        "address": "大內區曲溪51-2號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 15
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.387441,
+          23.118369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD742-0005",
+        "name": "臺南市大內區二溪社區活動中心",
+        "address": "大內區二溪198-1號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.392562,
+          23.122615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD742-0006",
+        "name": "臺南市大內區大內國中",
+        "address": "大內區內江319-1號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 160
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.36384,
+          23.112956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD742-0007",
+        "name": "臺南市大內區石子瀨社區活動中心",
+        "address": "大內區石城114-66號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.354354,
+          23.122163
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD742-0008",
+        "name": "臺南市大內區二溪國民小學",
+        "address": "大內區154號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 750
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.392636,
+          23.122416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD715-0001",
+        "name": "臺南市楠西區楠西國小",
+        "address": "楠西區四維路69號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.485046,
+          23.173521
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD715-0003",
+        "name": "臺南市楠西區公所",
+        "address": "楠西區中正路230號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.4863194,
+          23.1741069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD715-0004",
+        "name": "臺南市楠西區老人文康活動中心",
+        "address": "楠西區民族路128號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 14
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.482831,
+          23.180195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD715-0005",
+        "name": "臺南市楠西區楠西公園風雨球場",
+        "address": "楠西區中華路27號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.485762,
+          23.178108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD715-0006",
+        "name": "臺南市楠西區東勢里活動中心",
+        "address": "楠西區東勢路160巷30號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.4863532,
+          23.1781304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD716-0001",
+        "name": "臺南市南化區東和社區活動中心",
+        "address": "南化區東和19-1號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 91
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.473969,
+          23.020851
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD716-0002",
+        "name": "臺南市南化區中坑里活動中心",
+        "address": "南化區中坑38-6號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 59
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.45023,
+          23.045846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD716-0006",
+        "name": "臺南市南化區玉山里活動中心",
+        "address": "南化區玉山65號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 130
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.519946,
+          23.075973
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD716-0009",
+        "name": "臺南市南化區老人文康活動中心",
+        "address": "南化區南化172-1號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 80
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.477194,
+          23.0422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD716-0013",
+        "name": "臺南市南化區瑞峰國民小學",
+        "address": "南化區西阿里關96號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 260
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.595327,
+          23.174063
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD716-0014",
+        "name": "臺南市南化區北寮國小操場",
+        "address": "南化區北寮110-27號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.494426,
+          23.076167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD716-0015",
+        "name": "臺南市南化區公所",
+        "address": "南化區南化230號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.477587,
+          23.043123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD714-0001",
+        "name": "玉井區公所",
+        "address": "玉井區中正路27號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.4601109,
+          23.1237866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD714-0002",
+        "name": "玉井國小",
+        "address": "玉井區中正路1號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.45824728,
+          23.12073172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD714-0003",
+        "name": "玉井國中",
+        "address": "玉井區大成路152號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.47096362,
+          23.12315192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD714-0005",
+        "name": "玉井工商",
+        "address": "玉井區中山路1-1號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 460
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.45923068,
+          23.1208742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD714-0006",
+        "name": "望明里活動中心",
+        "address": "玉井區望明76號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.45615,
+          23.10609
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD714-0007",
+        "name": "沙田里活動中心",
+        "address": "玉井區沙田33-3號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.47977964,
+          23.110435537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD714-0008",
+        "name": "豐里里活動中心",
+        "address": "玉井區豐里59-10號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.44417,
+          23.124417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD714-0009",
+        "name": "清芳社區活動中心",
+        "address": "玉井區健康街10號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.469169,
+          23.130707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD713-0001",
+        "name": "臺南市左鎮區老人活動中心",
+        "address": "左鎮區15-4號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 42
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.4058711,
+          23.0580926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD713-0002",
+        "name": "臺南市左鎮區公所",
+        "address": "左鎮區171-4號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.40875,
+          23.0569559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD713-0003",
+        "name": "臺南市左鎮區榮和里活動中心",
+        "address": "左鎮區60-7號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 19
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3881611,
+          23.0641608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD713-0007",
+        "name": "臺南市左鎮區左鎮國中",
+        "address": "左鎮區170號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 72
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.410958,
+          23.0568866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD713-0008",
+        "name": "臺南市左鎮區澄山分校",
+        "address": "左鎮區77號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 46
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.385246,
+          23.0266164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD713-0010",
+        "name": "臺南市左鎮區岡林國小",
+        "address": "左鎮區31號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 187
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.414579,
+          23.0073581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD713-0011",
+        "name": "臺南市左鎮區左鎮國小",
+        "address": "左鎮區7號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 360
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.403775,
+          23.0560427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD741-0001",
+        "name": "臺南市善化區文康育樂中心",
+        "address": "善化區進學路150號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 560
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.289175,
+          23.136628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD741-0002",
+        "name": "臺南市善化區善化國小",
+        "address": "善化區進學路63號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 400
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.288777,
+          23.135687
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD741-0003",
+        "name": "臺南市善化區陽明國小",
+        "address": "善化區胡厝寮300號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 320
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.273186,
+          23.143256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD741-0004",
+        "name": "臺南市善化區大同國小",
+        "address": "善化區六分寮200號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.305654,
+          23.155842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD741-0005",
+        "name": "臺南市善化區蓮潭國中小",
+        "address": "善化區陽光大道366號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 410
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.308156,
+          23.116287
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD741-0006",
+        "name": "臺南市善化區田寮里活動中心",
+        "address": "善化區15鄰六分寮168之9號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.304524,
+          23.153434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD741-0007",
+        "name": "臺南市善化區茄拔國小",
+        "address": "善化區茄拔280號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 350
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.324766,
+          23.138611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD741-0008",
+        "name": "臺南市善化區大成國小",
+        "address": "善化區大成路385號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 420
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.295008,
+          23.128722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD741-0009",
+        "name": "臺南市善化區牛庄里活動中心",
+        "address": "善化區牛庄138號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 170
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.316922,
+          23.138815
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD741-0010",
+        "name": "臺南市善化區六德里活動中心",
+        "address": "善化區六分寮227之1號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 140
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.303917,
+          23.15547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD741-0012",
+        "name": "臺南市善化區善化國中",
+        "address": "善化區溪尾656號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.287655,
+          23.147099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD741-0013",
+        "name": "臺南市善化區文正社區活動中心",
+        "address": "善化區文正路25巷18號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 170
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.286214,
+          23.136682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD741-0014",
+        "name": "臺南市善化區老人文康活動中心",
+        "address": "善化區茄拔271號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 440
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.324741,
+          23.139025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD741-0015",
+        "name": "臺南市善化區小新國小",
+        "address": "善化區小新里97之3號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 237
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.310824,
+          23.124618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD741-0016",
+        "name": "臺南市善化區嘉南社區活動中心",
+        "address": "善化區茄拔80號之1",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 180
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326662,
+          23.135197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD745-0001",
+        "name": "臺南市安定區公所",
+        "address": "安定區安定59號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.237089,
+          23.121568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD745-0002",
+        "name": "臺南市安定區海寮社區活動中心",
+        "address": "安定區海寮15之3號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.211057,
+          23.096754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD745-0003",
+        "name": "臺南市安定區老人文康活動中心",
+        "address": "安定區安定131之1號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.237046,
+          23.12008
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD745-0005",
+        "name": "臺南市安定區大同社區活動中心",
+        "address": "安定區大同81號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.223513,
+          23.083776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD745-0006",
+        "name": "臺南市安定區安定國中",
+        "address": "安定區安加262-1號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 650
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.233855,
+          23.113989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD745-0007",
+        "name": "臺南市安定區南安國小",
+        "address": "安定區油車62號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 650
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.224836,
+          23.09869
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD745-0008",
+        "name": "臺南市安定區南興國小",
+        "address": "安定區六塊寮30號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.218864,
+          23.080123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD745-0010",
+        "name": "臺南市安定區體育運動公園",
+        "address": "安定區安定243-5號旁",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.238083,
+          23.117204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD745-0011",
+        "name": "臺南市安定區安定國小",
+        "address": "安定區1號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 650
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.254013,
+          23.113779
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD744-0001",
+        "name": "臺南市新市區文康育樂中心",
+        "address": "新市區忠孝街189號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.294464,
+          23.075417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD744-0002",
+        "name": "臺南市新市區老人文康活動中心",
+        "address": "新市區社內91-22號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 250
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.281565,
+          23.0769
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD744-0003",
+        "name": "臺南市新市區新市國小學生活動中心",
+        "address": "新市區中興街1號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.295674,
+          23.078966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD744-0004",
+        "name": "臺南市新市區新市國中",
+        "address": "新市區民族路76號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 2800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.300444,
+          23.083773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD744-0005",
+        "name": "臺南市新市區公所",
+        "address": "新市區中興街12號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.295069,
+          23.079004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD744-0006",
+        "name": "臺南市新市區大社國小學生活動中心",
+        "address": "新市區大社39號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.319031,
+          23.08658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD744-0009",
+        "name": "臺南市新市區壘球場",
+        "address": "新市區富中街與富安二街交叉路口",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 2000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.28637,
+          23.07923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD743-0001",
+        "name": "山上國小",
+        "address": "山上區南洲42號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.355531,
+          23.101112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD743-0002",
+        "name": "山上國中",
+        "address": "山上區山上130號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.358324,
+          23.103317
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD743-0003",
+        "name": "山上區公所",
+        "address": "山上區南洲325號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.352718,
+          23.103563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD743-0004",
+        "name": "南洲里農民教育活動中心",
+        "address": "山上區南洲197號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 150
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.353431,
+          23.101392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD743-0005",
+        "name": "山上里農民教育活動中心",
+        "address": "山上區山上134-1號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.357722,
+          23.102032
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD743-0006",
+        "name": "新莊里大庄活動中心",
+        "address": "山上區大庄32號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.354461,
+          23.094389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD743-0007",
+        "name": "豐德里活動中心",
+        "address": "山上區隙子口49-2號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.361121,
+          23.077369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD743-0008",
+        "name": "平陽里活動中心",
+        "address": "山上區石子崎48號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 40
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.38056,
+          23.087097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD712-0001",
+        "name": "臺南市新化區公所3樓展演廳",
+        "address": "新化區中山路130號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.310773,
+          23.038515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD712-0002",
+        "name": "臺南市新化區體育公園",
+        "address": "新化區公園路110號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 2000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.306618,
+          23.029755
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD712-0003",
+        "name": "臺南市新化區新化國中大禮堂",
+        "address": "新化區中興路722號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.312361,
+          23.033429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD712-0004",
+        "name": "新化區崙頂社區活動中心",
+        "address": "新化區崙子頂422號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.287879,
+          23.022566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD712-0005",
+        "name": "臺南市新化區大新國小大禮堂",
+        "address": "新化區太平街176 號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 150
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.299006,
+          23.038164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD712-0006",
+        "name": "那拔及羊林里活動中心",
+        "address": "新化區那拔林329號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.350223,
+          23.06617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD712-0007",
+        "name": "新化區老人文康活動中心",
+        "address": "新化區和平街31巷10號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3099,
+          23.033048
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD712-0008",
+        "name": "臺南市新化區大坑里活動中心",
+        "address": "新化區大坑尾182號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 80
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.384806,
+          23.009326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD712-0009",
+        "name": "臺南市新化區新化國民小學",
+        "address": "新化區中山路173號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 940
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.310993,
+          23.037658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD712-0010",
+        "name": "臺南市新化區口奉口順天宮",
+        "address": "新化區口奉口142號之26",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.290058,
+          23.040997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD712-0011",
+        "name": "臺南市新化區保生大帝廟",
+        "address": "新化區洋子127號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 150
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.295845,
+          23.033716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD712-0012",
+        "name": "臺南市新化區接天寺",
+        "address": "新化區那拔林500號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 400
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.348138,
+          23.064843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD712-0013",
+        "name": "新化區北勢里活動中心",
+        "address": "新化區北勢39號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 80
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.291225,
+          23.045731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD712-0014",
+        "name": "臺南市新化區那拔國小操場",
+        "address": "新化區那拔54號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.349594,
+          23.067945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD712-0015",
+        "name": "新化區聯合活動中心",
+        "address": "新化區民生路269號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 290
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.307053,
+          23.041792
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0001",
+        "name": "臺南市安南區東和里活動中心",
+        "address": "安南區⾧和路㇐段805號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 73
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2285837566608,
+          23.06175272362074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0002",
+        "name": "臺南市安南區州北里活動中心",
+        "address": "安南區安昌街22號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 325
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.21788081448123,
+          23.0676572535649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0004",
+        "name": "臺南市安南區溪北里活動中心",
+        "address": "安南區文安街66號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 199
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2129576217852,
+          23.02701626451013
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0005",
+        "name": "臺南市安南區安順國中",
+        "address": "安南區安和路三段227號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1900
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2183764,
+          23.0491176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0007",
+        "name": "臺南市安南區理想大安社區活動中心",
+        "address": "安南區大安街135號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 281
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.19288389477268,
+          23.033236503968624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0009",
+        "name": "臺南市安南區布袋里活動中心",
+        "address": "安南區⾧和路四段231巷60弄41號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 223
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2071759,
+          23.0632192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0010",
+        "name": "臺南市安南區學東里活動中心",
+        "address": "安南區公學路六段661號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 276
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1429397,
+          23.0781374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0011",
+        "name": "臺南市安南區佃東佃西社區活動中心",
+        "address": "安南區公學路四段325號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 169
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.17475495738847,
+          23.065586401303985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0012",
+        "name": "臺南市安南區安南國中",
+        "address": "安南區安中路三段252號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1750
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1780777,
+          23.0485612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0014",
+        "name": "臺南市安南區溪墘里活動中心",
+        "address": "安南區海佃路㇐段372巷50號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 228
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.192186107693,
+          23.0279354729088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0016",
+        "name": "臺南市安南區正統鹿耳門土城聖母廟",
+        "address": "安南區城安路160號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1273532,
+          23.0668559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0017",
+        "name": "臺南市安南區城南里活動中心",
+        "address": "安南區城西街㇐段61巷28弄98號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 220
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1270656,
+          23.0604151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0018",
+        "name": "臺南市安南區城西里活動中心",
+        "address": "安南區城西街三段431號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 291
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.09561966904,
+          23.0568688175285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0019",
+        "name": "臺南市安南區鹿耳門天后宮-公館",
+        "address": "安南區媽祖宮㇐街136號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.12426015799709,
+          23.03752028666906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0020",
+        "name": "臺南市安南區塩田里活動中心",
+        "address": "安南區塩安路28號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 287
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.14525334820506,
+          23.03377718122101
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0021",
+        "name": "臺南市安南區塭南里活動中心",
+        "address": "安南區安昌街130號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 335
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.219737,
+          23.0706921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0022",
+        "name": "臺南市安南區安西里活動中心",
+        "address": "安南區安西路101號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 310
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.208853808272,
+          23.0317982960872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0023",
+        "name": "臺南市安南區安東里活動中心",
+        "address": "安南區安和路㇐段478巷2弄120號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 385
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2134509,
+          23.0340946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0025",
+        "name": "臺南市安南區青草里活動中心",
+        "address": "安南區青砂街二段371巷2號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 278
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.11181708355882,
+          23.076342869489444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0026",
+        "name": "臺南市安南區媽祖宮社區活動中心",
+        "address": "安南區媽祖宮五街10號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 393
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1248041,
+          23.0384463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0027",
+        "name": "臺南市安南區城東里活動中心",
+        "address": "安南區城安路73號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 285
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.128023005061,
+          23.0663828610501
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0028",
+        "name": "臺南市安南區和順國民小學",
+        "address": "安南區安和路五段178巷5號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.218504934008,
+          23.0666372724495
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0029",
+        "name": "臺南市安南區安慶國民小學",
+        "address": "安南區安中路㇐段703巷80號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1929444,
+          23.0404859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0030",
+        "name": "臺南市安南區南興國民小學",
+        "address": "安南區公學路五段627號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1090
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1607458,
+          23.0737047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0031",
+        "name": "臺南市安南區海東國民小學",
+        "address": "安南區安中路三段381號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.17481100122,
+          23.0487773203324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0032",
+        "name": "臺南市安南區⾧安國民小學",
+        "address": "安南區⾧溪路三段249號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.197829,
+          23.065157
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0033",
+        "name": "臺南市安南區砂崙里活動中心",
+        "address": "安南區城北路871巷94弄17號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 250
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1275447,
+          23.0791702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0034",
+        "name": "臺南市安南區四草里活動中心",
+        "address": "安南區大眾路656號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 348
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.128080458573,
+          23.0167917195545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0035",
+        "name": "臺南市安南區安富里活動中心",
+        "address": "安南區郡安路5段164巷12弄1號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 221
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1966725,
+          23.0273837
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0036",
+        "name": "臺南市安南區土城國民小學",
+        "address": "安南區城北路195號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1284
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1309285,
+          23.0663493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0037",
+        "name": "臺南市安南區青草國民小學",
+        "address": "安南區青砂街二段105巷32號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1168604,
+          23.0771128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0038",
+        "name": "臺南市安南區學東國民小學",
+        "address": "安南區公學路6段589號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 600
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1454398,
+          23.0781511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0039",
+        "name": "臺南市安南區安佃國民小學",
+        "address": "安南區海佃路4段493號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 150
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1733152,
+          23.0640273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0040",
+        "name": "臺南市安南區和順國民中學",
+        "address": "安南區安和路5段84巷66號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1179
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2204849,
+          23.0658757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD709-0041",
+        "name": "臺南市安南區海佃國民中學",
+        "address": "安南區安富街166號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 867
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1985039,
+          23.0281029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD710-0001",
+        "name": "臺南市永康區永康國民小學",
+        "address": "永康區中山南路637號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1166
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2550815,
+          23.0265964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD710-0002",
+        "name": "臺南市永康區埔園龍埔里活動中心",
+        "address": "永康區永大路三段618巷111號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 132
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2612111,
+          23.0384771
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD710-0003",
+        "name": "臺南市永康區東灣里活動中心",
+        "address": "永康區民族路291號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 95
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.269078,
+          23.0054051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD710-0004",
+        "name": "臺南市永康區復華里活動中心",
+        "address": "永康區國華街110號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 314
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.24698,
+          23.0145546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD710-0005",
+        "name": "臺南市永康區六合里活動中心",
+        "address": "永康區中華二路358巷43號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 137
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2298613,
+          23.0095959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD710-0006",
+        "name": "臺南市永康區中華里活動中心",
+        "address": "永康區忠勇街51號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 219
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2377952,
+          23.0001309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD710-0007",
+        "name": "臺南市永康區東橋里活動中心",
+        "address": "永康區東橋十街158號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 187
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2344819,
+          23.0227414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD710-0008",
+        "name": "臺南市永康區公所",
+        "address": "永康區中山南路655號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 66
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2569745,
+          23.0262828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD710-0009",
+        "name": "臺南市永康區社教中心",
+        "address": "永康區永大二路88號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 950
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2598021,
+          23.0188399
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD710-0010",
+        "name": "臺南市永康區體㇐運動公園",
+        "address": "永康區中正北路底豐化橋南端",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 12800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.27426,
+          23.05657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD710-0011",
+        "name": "臺南市永康區永康公園",
+        "address": "永康區興國街100號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 9300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.243982,
+          23.0027238
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD710-0012",
+        "name": "臺南市永康區探索教育公園",
+        "address": "永康區永平街469巷13號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 5750
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.259094,
+          23.020631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD710-0013",
+        "name": "臺南市永康區鹽行鹽興社教文化會館",
+        "address": "永康區正南八街1號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 34
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.232814,
+          23.0383591
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD710-0014",
+        "name": "臺南市永康區崑山里活動中心",
+        "address": "永康區崑山街222巷11號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 84
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2600379,
+          23.0051467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD710-0015",
+        "name": "臺南市永康區崑山國民小學",
+        "address": "永康區國光五街72號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2581165,
+          23.0061799
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD710-0016",
+        "name": "臺南市永康區龍潭國民小學",
+        "address": "永康區龍潭街214號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1113
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.267904,
+          23.0334853
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD710-0018",
+        "name": "臺南市永康區永仁高級中學",
+        "address": "永康區忠孝路74號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1900
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2402294,
+          23.0033954
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD710-0019",
+        "name": "臺南市立大橋國民中學",
+        "address": "永康區東橋十街1號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1380
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.231436,
+          23.022449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD704-0001",
+        "name": "臺南市北區區公所",
+        "address": "北區成功路238巷7號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 50
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.203014,
+          22.999759
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD704-0002",
+        "name": "臺南市立延平國民中學",
+        "address": "北區公園路750號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1741
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.210683,
+          23.009436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD704-0003",
+        "name": "臺南市立民德國民中學",
+        "address": "北區西門路三段223號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 2389
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.205213,
+          23.005362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD704-0004",
+        "name": "臺南市立文賢國民中學",
+        "address": "北區文賢㇐路2號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 3121
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.196199,
+          23.005709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD704-0005",
+        "name": "臺南市北區文元國民小學",
+        "address": "北區海安路三段815號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 138
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.199951,
+          23.015355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD704-0006",
+        "name": "臺南市北區開元國民小學",
+        "address": "北區開元路71巷32號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 3036
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.216736,
+          23.007386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD704-0007",
+        "name": "臺南市北區公園國民小學",
+        "address": "北區公園路180號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1678
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.209047,
+          23.000246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD704-0008",
+        "name": "臺南市北區立人國民小學",
+        "address": "北區西門路三段41號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1788
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.202082,
+          23.001335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD704-0009",
+        "name": "臺南市北區賢北國民小學",
+        "address": "北區大興街599號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 319
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.179143,
+          23.007598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD704-0010",
+        "name": "成德福德華德里聯合活動中心",
+        "address": "北區育德三街42號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 143
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.201869,
+          23.013268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD704-0011",
+        "name": "文元文成元美里活動中心",
+        "address": "北區和緯路三段370號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 314
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.194182,
+          23.00993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD704-0012",
+        "name": "臺南市北區裕民社區活動中心",
+        "address": "北區臨安路二段93號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 80
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.197295,
+          23.003191
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD704-0013",
+        "name": "臺南市北區重興社區活動中心",
+        "address": "北區東豐路451巷169號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 74
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.226645,
+          23.003581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD704-0014",
+        "name": "臺南市北區安民社區活動中心",
+        "address": "北區海安路三段59號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 80
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.199197,
+          23.002224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD704-0015",
+        "name": "臺南市北區東興社區活動中心",
+        "address": "北區小東路401巷51號之1",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.232235,
+          22.999997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD704-0016",
+        "name": "臺南市北區實踐社區活動中心",
+        "address": "北區大武街161號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 35
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.215771,
+          23.013408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD704-0017",
+        "name": "臺南市北區大仁社區活動中心",
+        "address": "北區和緯路㇐段1號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 761
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.216466,
+          23.008942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD704-0018",
+        "name": "臺南市北區賢北里活動中心",
+        "address": "北區賢北街108號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 60
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.183295,
+          23.00854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD704-0019",
+        "name": "臺南市北區大光國民小學",
+        "address": "北區⾧榮路五段277號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1150
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.217725,
+          23.012574
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD704-0020",
+        "name": "臺南市立成功國民中學",
+        "address": "北區和緯路㇐段2號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1306
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.21665,
+          23.0093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD704-0021",
+        "name": "臺南市北區大港國民小學",
+        "address": "北區大港街146號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1429
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.18902,
+          23.01324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD700-0001",
+        "name": "臺南市中西區忠義國小",
+        "address": "中西區忠義路二段2號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1601
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.202703,
+          22.990269
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD700-0002",
+        "name": "臺南市中西區中山國中",
+        "address": "中西區南寧街45號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1582
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.20329,
+          22.984784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD700-0003",
+        "name": "臺南市中西區協進國小",
+        "address": "中西區金華路四段17號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1217
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.193961,
+          22.997229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD700-0004",
+        "name": "臺南市中西區臺南大學",
+        "address": "中西區樹林街二段33號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1495
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.208006,
+          22.985081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD700-0005",
+        "name": "臺南市中西區南英商工",
+        "address": "中西區永福路㇐段149號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 890
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.19992,
+          22.98589
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD700-0006",
+        "name": "臺南市中西區永華里活動中心",
+        "address": "中西區開山路1號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.205681,
+          22.992224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD700-0007",
+        "name": "臺南市中西區小西門里活動中心",
+        "address": "中西區府緯街4巷6號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.199465,
+          22.984404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD700-0008",
+        "name": "臺南市中西區大涼社區活動中心",
+        "address": "中西區區府前路二段258巷55號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 240
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.19081,
+          22.993618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD700-0009",
+        "name": "臺南市中西區五妃社區活動中心",
+        "address": "中西區南門路237巷10號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.204876,
+          22.98301
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD700-0010",
+        "name": "臺南市中西區南美里活動中心",
+        "address": "中西區府前路㇐段258號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 240
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.200776,
+          22.990055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD700-0011",
+        "name": "臺南市中西區龍盛社區活動中心",
+        "address": "中西區民權路三段232號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 350
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.193755,
+          22.998159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD700-0012",
+        "name": "臺南市中西區中頭社區活動中心",
+        "address": "中西區保安路201之1號1樓",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.191261,
+          22.991226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD700-0013",
+        "name": "臺南市中西區城隍里活動中心",
+        "address": "中西區青年路226巷20號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.21084,
+          22.990707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD700-0014",
+        "name": "臺南市中西區光賢里活動中心",
+        "address": "中西區和善街98巷7號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 120
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.189947,
+          23.002842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD700-0015",
+        "name": "淺草多功能中心",
+        "address": "中西區臺南市中西區國華街三段5號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.197253,
+          22.993483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD708-0001",
+        "name": "臺南市安平區公所",
+        "address": "安平區育平路316號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 198
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.168926,
+          22.99454
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD708-0002",
+        "name": "臺南市安平區安平國小",
+        "address": "安平區怡平路392號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 510
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.176283,
+          22.993903
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD708-0003",
+        "name": "臺南市安平區西門實驗小學",
+        "address": "安平區安北路180號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 694
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.159521,
+          23.0026636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD708-0004",
+        "name": "臺南市安平區石門國小-操場",
+        "address": "安平區安平路700號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1001
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1663193,
+          22.9995867
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD708-0007",
+        "name": "臺南市安平區建平里活動中心",
+        "address": "安平區府前三街27號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 152
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1856973,
+          22.9938196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD708-0012",
+        "name": "臺南市安平區安平國中-安平館",
+        "address": "安平區慶平路687號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 308
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1683055,
+          22.9976177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD708-0014",
+        "name": "臺南市安平區億載國小-操場",
+        "address": "安平區郡平路310號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1458
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1637581,
+          22.9897575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD708-0017",
+        "name": "臺南市安平區億載里活動中心",
+        "address": "安平區光州㇐街29號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 262
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.162654,
+          22.9857824
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD708-0018",
+        "name": "臺南市安平區華平里活動中心",
+        "address": "安平區育平九街195號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 235
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1718573,
+          22.9951069
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD708-0019",
+        "name": "臺南市安平區平通里活動中心",
+        "address": "安平區平通路580巷102號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 92
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.170604,
+          22.996393
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD708-0020",
+        "name": "臺南市安平區育平里活動中心",
+        "address": "安平區府平路376號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 273
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1671995,
+          22.9871668
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD708-0021",
+        "name": "臺南市安平區沙灘忠誠社區聯合活動中心",
+        "address": "安平區世平路69號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 376
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.148699,
+          22.99705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD708-0022",
+        "name": "臺南市安平區海頭社區活動中心",
+        "address": "安平區古堡街90巷33號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 99
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.160307,
+          23.004247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD708-0023",
+        "name": "臺南市安平區文平里活動中心",
+        "address": "安平區中華西路二段1巷1號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 151
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.185517,
+          22.9864305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD708-0024",
+        "name": "臺南市安平區金城國中-操場",
+        "address": "安平區怡平路8號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1500
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1802839,
+          22.9932366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD702-0001",
+        "name": "臺南市南區區公所",
+        "address": "南區明興路2號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 120
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1886736,
+          22.9610987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD702-0002",
+        "name": "臺南市南區新興國中",
+        "address": "南區新孝路87號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 4157
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1864738,
+          22.9778072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD702-0003",
+        "name": "臺南市南區大成國中",
+        "address": "南區西門路㇐段306號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 3306
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1979001,
+          22.9789408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD702-0004",
+        "name": "臺南市南區台南高商",
+        "address": "南區健康路㇐段327號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 3176
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2024015,
+          22.9812002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD702-0005",
+        "name": "臺南市南區龍崗國小",
+        "address": "南區鯤鯓路147號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 900
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1695532,
+          22.9615332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD702-0007",
+        "name": "臺南市南區永華國小",
+        "address": "南區中華西路㇐段2巷17號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 3273
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1865679,
+          22.9637029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD702-0008",
+        "name": "臺南市南區南寧高級中學",
+        "address": "南區萬年路167號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 409
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1865576,
+          22.9354056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD702-0010",
+        "name": "臺南市南區灣裡聯合里活動中心",
+        "address": "南區灣裡路67號",
+        "flood": "否",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 787
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.180906,
+          22.9323629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD702-0012",
+        "name": "臺南市南區明興社區活動中心",
+        "address": "南區德興路88號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 439
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1921721,
+          22.9651011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD702-0015",
+        "name": "臺南市南區國宅社區活動中心",
+        "address": "南區金華路二段33巷81號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 190
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1877528,
+          22.9771078
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD702-0016",
+        "name": "臺南市南區開南里活動中心",
+        "address": "南區新建路48號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 263
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1851228,
+          22.9645784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD702-0017",
+        "name": "臺南市南區鯤鯓里活動中心",
+        "address": "南區鯤鯓路66巷7號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 253
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1725243,
+          22.9596339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD701-0001",
+        "name": "德光里活動中心",
+        "address": "東區崇德路111號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1400
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2187457,
+          22.9806866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD701-0005",
+        "name": "龍山社區活動中心",
+        "address": "東區林森路㇐段311號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 750
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.219445,
+          22.9836017
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD701-0006",
+        "name": "關聖社區活動中心",
+        "address": "東區裕孝路118號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.243375,
+          22.9865857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD701-0008",
+        "name": "復興國民小學風雨球場",
+        "address": "東區裕文路60號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2387869,
+          22.9823906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD701-0009",
+        "name": "裕文國民小學",
+        "address": "東區裕文路301號",
+        "flood": "是",
+        "earthquake": "否",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 700
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2457409,
+          22.9824992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD701-0010",
+        "name": "東寧運動公園",
+        "address": "東區林森路二段250號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 7700
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2250221,
+          22.9915703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD701-0011",
+        "name": "崇學國民小學操場",
+        "address": "東區崇學路98號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2232004,
+          22.9794998
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD701-0012",
+        "name": "東區區公所",
+        "address": "東區崇學路100號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 70
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.224004,
+          22.9802421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD701-0013",
+        "name": "衛國里活動中心",
+        "address": "東區衛國街114巷28號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 400
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2253971,
+          22.9878206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD701-0014",
+        "name": "富裕里活動中心",
+        "address": "東區東門路二段365巷35號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 400
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2279904,
+          22.983457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD701-0017",
+        "name": "大學東寧聯合社區活動中心",
+        "address": "東區林森路二段252號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 900
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2240408,
+          22.9920311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD701-0019",
+        "name": "和平里活動中心",
+        "address": "東區文化路100號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1450
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2326034,
+          22.9769248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD701-0020",
+        "name": "大智里活動中心",
+        "address": "東區德東街90號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 650
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2300704,
+          22.9616076
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD701-0021",
+        "name": "勝利國小",
+        "address": "東區勝利路10號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 100
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2178739,
+          22.9886316
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD701-0022",
+        "name": "東光社區活動中心",
+        "address": "東區東光路㇐段39號之1",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 350
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2307345,
+          22.9906232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD701-0023",
+        "name": "平實公園",
+        "address": "東區平實路與後甲㇐路路口",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 15000
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.2360001,
+          22.9928433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD717-0001",
+        "name": "臺南市仁德區公所",
+        "address": "仁德區中正路三段5號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 270
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.251673,
+          22.972449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD717-0002",
+        "name": "臺南市仁德區太子土庫聯合活動中心",
+        "address": "仁德區土庫路2號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 480
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.260259,
+          22.991012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD717-0003",
+        "name": "臺南市仁德區運動公園",
+        "address": "仁德區仁義路130號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1610
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.258364,
+          22.967797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD717-0004",
+        "name": "臺南市仁德區後壁里老人文康活動中心",
+        "address": "仁德區德南路68號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1460
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.253058,
+          22.947797
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD717-0005",
+        "name": "臺南都會公園管理中心",
+        "address": "仁德區文華路二段62號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 2360
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.222683,
+          22.937137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD717-0006",
+        "name": "臺南市仁德國小",
+        "address": "仁德區中正路二段806號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.254071,
+          22.962221
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD717-0007",
+        "name": "臺南市仁德國中",
+        "address": "仁德區民安路㇐段363號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 228
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.247825,
+          22.956029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD711-0001",
+        "name": "臺南市歸仁區歸仁國中",
+        "address": "歸仁區文化街二段2號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1130
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.293892,
+          22.969901
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD711-0002",
+        "name": "臺南市歸仁區沙崙國中",
+        "address": "歸仁區歸仁六路2號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1035
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.281559,
+          22.929065
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD711-0003",
+        "name": "臺南市歸仁區歸仁國小",
+        "address": "歸仁區文化街㇐段100號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 865
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.296484,
+          22.970047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD711-0004",
+        "name": "臺南市歸仁區紅瓦厝國小",
+        "address": "歸仁區信義南路100號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 800
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.298541,
+          22.961993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD711-0005",
+        "name": "臺南市歸仁區文化國小",
+        "address": "歸仁區文化街二段136號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 730
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.289051,
+          22.97109
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD711-0006",
+        "name": "臺南市歸仁區歸南國小",
+        "address": "歸仁區民權南路171號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 710
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.288178,
+          22.964456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD711-0007",
+        "name": "臺南市歸仁區大潭國小",
+        "address": "歸仁區中正南路三段97號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 700
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.27173,
+          22.91412
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD711-0008",
+        "name": "臺南市歸仁區保西國小",
+        "address": "歸仁區中正北路三段60號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 730
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.293529,
+          22.99219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD711-0009",
+        "name": "臺南市歸仁區公所",
+        "address": "歸仁區中山路二段2號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 200
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.293961,
+          22.967227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD711-0010",
+        "name": "臺南市歸仁區公所（體育公園）",
+        "address": "歸仁區公園路71之1號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 986
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.296918,
+          22.962982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD711-0011",
+        "name": "歸仁區高鐵球瑒",
+        "address": "歸仁區高鐵㇐路與大武路二段口",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 4751
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.28273,
+          22.91912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD718-0001",
+        "name": "關廟社區活動中心",
+        "address": "關廟區文化街85號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 130
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.324218,
+          22.958926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD718-0002",
+        "name": "關廟國中",
+        "address": "關廟區中山路二段172號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 1530
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.324618,
+          22.961086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD718-0003",
+        "name": "關廟國小",
+        "address": "關廟區文衡路121號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 950
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.325954,
+          22.963991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD718-0004",
+        "name": "五甲國小",
+        "address": "關廟區和平路246號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 850
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.334155,
+          22.958579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD718-0005",
+        "name": "深坑國小",
+        "address": "關廟區南雄路㇐段487號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 300
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.33326,
+          22.939865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD718-0006",
+        "name": "新光國小",
+        "address": "關廟區新光街76號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 155
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.353148,
+          22.972059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD718-0007",
+        "name": "崇和國小",
+        "address": "關廟區南雄南路568號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 390
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.352231,
+          22.904273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD718-0009",
+        "name": "保東國小",
+        "address": "關廟區關新路㇐段776號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 460
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.308994,
+          22.99434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD718-0011",
+        "name": "關廟區公所",
+        "address": "關廟區中正路998號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 45
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.327704,
+          22.963021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD719-0001",
+        "name": "臺南市龍崎區老人文康活動中心",
+        "address": "龍崎區4鄰新市子201號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 65
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.35998,
+          22.96488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD719-0003",
+        "name": "臺南市龍崎區石嘈里民活動中心",
+        "address": "龍崎區3鄰刺子崙13之3號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 30
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.403867,
+          22.956559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD719-0004",
+        "name": "臺南市龍崎區大坪里民活動中心",
+        "address": "龍崎區4鄰大坪37之2號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.39178,
+          22.92698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD719-0007",
+        "name": "臺南市龍崎區區民活動中心",
+        "address": "龍崎區1鄰新市子38號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 140
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.35942,
+          22.96467
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD719-0009",
+        "name": "臺南市立龍崎國民小學",
+        "address": "龍崎區1鄰新市子41號",
+        "flood": "否",
+        "earthquake": "是",
+        "landslide": "否",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 250
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.35924,
+          22.96411
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "number": "SD719-0010",
+        "name": "臺南市龍崎區公所",
+        "address": "龍崎區新市子103號",
+        "flood": "是",
+        "earthquake": "是",
+        "landslide": "是",
+        "wartime": "否",
+        "disabled_facility": "未知",
+        "capacity": 20
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.36502,
+          22.9632
+        ]
+      }
+    }
+  ]
+}
