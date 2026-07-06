@@ -13,6 +13,7 @@ import com.example.islanddisastersurvivalguideapp.data.model.RouteWaypoint
 import com.example.islanddisastersurvivalguideapp.data.model.ShelterInfo
 import com.example.islanddisastersurvivalguideapp.data.parser.ShelterParser
 import com.example.islanddisastersurvivalguideapp.data.repository.FrequentLocationRepository
+import com.example.islanddisastersurvivalguideapp.data.repository.ShelterRepository
 import com.google.android.gms.maps.model.LatLng
 import com.google.gson.Gson
 import kotlinx.coroutines.Dispatchers
@@ -30,6 +31,7 @@ class ShelterViewModel(application: Application) : AndroidViewModel(application)
     private val _selectedRoute = MutableStateFlow<PrecomputedRoute?>(null)
     val selectedRoute: StateFlow<PrecomputedRoute?> = _selectedRoute
     private val _isLoading = MutableStateFlow(false)
+    private val repository = ShelterRepository(application.applicationContext)
 
     // 改為可空的初始值
     private val _userLocation = MutableStateFlow<LatLng?>(null)
@@ -79,16 +81,18 @@ class ShelterViewModel(application: Application) : AndroidViewModel(application)
         viewModelScope.launch {
             try {
                 Log.d("ShelterViewModel", "Starting to load shelters")
-                val jsonString = readGeoJsonFromAssets("ShelterInTaipei.geojson")
-                Log.d("ShelterViewModel", "GeoJSON content length: ${jsonString.length}")
 
-                val parsedShelters = ShelterParser.parseGeoJson(jsonString)
+                val parsedShelters = repository.getShelters()
                 Log.d("ShelterViewModel", "Parsed shelters count: ${parsedShelters.size}")
 
                 _shelters.value = parsedShelters
                 updateNearestShelters() // 確保更新最近的避難所
 
-                Log.d("ShelterViewModel", "Nearest shelters count: ${_nearestShelters.value.size}")
+                // 確保更新最近的避難所 (如果已經有定位的話)
+                if (_userLocation.value != null) {
+                    updateNearestShelters()
+                }
+
             } catch (e: Exception) {
                 Log.e("ShelterViewModel", "Error loading shelters", e)
                 e.printStackTrace()
@@ -158,15 +162,6 @@ class ShelterViewModel(application: Application) : AndroidViewModel(application)
         }
     }
 
-    private suspend fun readGeoJsonFromAssets(fileName: String): String =
-        withContext(Dispatchers.IO) {
-            try {
-                getApplication<Application>().assets.open(fileName).bufferedReader().use { it.readText() }
-            } catch (e: IOException) {
-                Log.e("ShelterViewModel", "Error reading file: $fileName", e)
-                throw e
-            }
-        }
 
     fun loadFrequentLocations() {
         viewModelScope.launch {

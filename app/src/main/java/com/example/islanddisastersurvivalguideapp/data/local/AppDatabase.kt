@@ -12,16 +12,19 @@ import com.example.islanddisastersurvivalguideapp.data.local.entity.FrequentLoca
 import com.example.islanddisastersurvivalguideapp.data.local.converter.Converters
 import com.example.islanddisastersurvivalguideapp.data.local.dao.MedicalCardDao
 import com.example.islanddisastersurvivalguideapp.data.local.dao.OfflineRouteDao
+import com.example.islanddisastersurvivalguideapp.data.local.dao.SupplyDao
 import com.example.islanddisastersurvivalguideapp.data.local.entity.PrecomputedRouteEntity
+import com.example.islanddisastersurvivalguideapp.data.model.SupplyItem
 
 
 @Database(
     entities = [
         PrecomputedRouteEntity::class,
         FrequentLocationEntity::class,
-        MedicalCardEntity::class
+        MedicalCardEntity::class,
+        SupplyItem::class
     ],
-    version = 3,
+    version = 4,
     exportSchema = false
 )
 @TypeConverters(Converters::class)
@@ -29,12 +32,11 @@ abstract class AppDatabase : RoomDatabase() {
     abstract fun frequentLocationDao(): FrequentLocationDao
     abstract fun OfflineRouteDao(): OfflineRouteDao
     abstract fun medicalCardDao(): MedicalCardDao
+    abstract fun supplyDao(): SupplyDao
 
     companion object {
         @Volatile
         private var INSTANCE: AppDatabase? = null
-
-        // 定義版本 2 到版本 3 的遷移策略
         private val MIGRATION_2_3 = object : Migration(2, 3) {
             override fun migrate(db: SupportSQLiteDatabase) {
                 // 創建醫療卡表

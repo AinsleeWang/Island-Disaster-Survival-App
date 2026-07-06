@@ -14,7 +14,6 @@ import android.net.NetworkRequest
 import android.net.Uri
 import android.os.Build
 import android.os.Bundle
-import android.os.Environment
 import android.provider.MediaStore
 import android.util.Log
 import androidx.activity.ComponentActivity
@@ -31,7 +30,6 @@ import androidx.compose.animation.expandVertically
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.shrinkVertically
-import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -77,7 +75,7 @@ import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
-import androidx.compose.material3.LinearProgressIndicator
+import com.example.islanddisastersurvivalguideapp.ui.screen.OfflineRoutePlanningScreen
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
@@ -87,7 +85,6 @@ import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
@@ -98,10 +95,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.rotate
-import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.StrokeCap
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.font.FontWeight
@@ -114,7 +109,6 @@ import androidx.compose.ui.window.Dialog
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavController
 import androidx.navigation.compose.NavHost
@@ -130,13 +124,14 @@ import com.example.islanddisastersurvivalguideapp.data.model.PrecomputedRoute
 import com.example.islanddisastersurvivalguideapp.data.model.ShelterInfo
 import com.example.islanddisastersurvivalguideapp.data.model.SupplyItem
 import com.example.islanddisastersurvivalguideapp.data.repository.MedicalCardRepository
-import com.example.islanddisastersurvivalguideapp.sensor.NavigationSensorManager
 import com.example.islanddisastersurvivalguideapp.ui.screen.DisasterResponseScreen
 import com.example.islanddisastersurvivalguideapp.ui.screen.EmergencyContactScreen
+import com.example.islanddisastersurvivalguideapp.ui.screen.MedicalCardScreen
 import com.example.islanddisastersurvivalguideapp.ui.screen.MorseAlarmScreen
 import com.example.islanddisastersurvivalguideapp.viewmodel.MedicalCardViewModel
 import com.example.islanddisastersurvivalguideapp.viewmodel.factory.MedicalCardViewModelFactory
 import com.example.islanddisastersurvivalguideapp.viewmodel.ShelterViewModel
+import com.example.islanddisastersurvivalguideapp.viewmodel.SupplyViewModel
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.maps.CameraUpdateFactory
@@ -151,19 +146,15 @@ import com.google.maps.android.compose.MarkerState
 import com.google.maps.android.compose.rememberCameraPositionState
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.tasks.await
-import kotlinx.coroutines.withContext
 import java.io.File
-import java.io.IOException
 import java.util.Calendar
 import java.util.UUID
 import kotlin.math.absoluteValue
 import kotlin.math.cos
 import kotlin.math.sin
+import kotlinx.coroutines.flow.flowOf
 
 
 class MyApplication : Application() {
@@ -253,7 +244,8 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        supplyRepository = SupplyRepository()
+        val supplyDao = database.supplyDao()
+        supplyRepository = SupplyRepository(supplyDao)
         setupNetworkCallback()
         requestLocationPermission()
 
@@ -951,164 +943,6 @@ fun AddLocationDialog(
 
 }
 
-/*專心處理離線路線規劃OfflineRoutePlanning*/
-@Composable
-fun OfflineRoutePlanningScreen(
-    shelterViewModel: ShelterViewModel,
-    onClose: () -> Unit
-) {
-    val context = LocalContext.current
-    var selectedLocation by remember { mutableStateOf<FrequentLocation?>(null) }
-    var selectedShelter by remember { mutableStateOf<ShelterInfo?>(null) }
-    val currentRoute by shelterViewModel.selectedRoute.collectAsState()
-    var showLocationSelection by remember { mutableStateOf(true) }
-    var isNavigating by remember { mutableStateOf(false) }
-    var showError by remember { mutableStateOf(false) }
-    var errorMessage by remember { mutableStateOf("") }
-    val frequentLocations by shelterViewModel.frequentLocations.collectAsState()
-    val nearestShelters by shelterViewModel.nearestShelters.collectAsState()
-
-    // 新增狀態用於控制校準對話框的顯示
-    var showCalibrationDialog by remember { mutableStateOf(false) }
-
-    // 記住 NavigationSensorManager 實例
-    val navigationSensorManager = remember { NavigationSensorManager(context) }
-
-    // 在導航開始時檢查並啟動感測器
-    LaunchedEffect(isNavigating) {
-        if (isNavigating) {
-            try {
-                showCalibrationDialog = true  // 顯示校準對話框
-                navigationSensorManager.startListening()
-            } catch (e: Exception) {
-                Log.e("Compass", "Error starting sensors", e)
-                showError = true
-                errorMessage = "無法啟動感測器: ${e.message}"
-            }
-        } else {
-            navigationSensorManager.stopListening()
-        }
-    }
-
-    // 在組件銷毀時停止感測器監聽
-    DisposableEffect(Unit) {
-        onDispose {
-            navigationSensorManager.stopListening()
-        }
-    }
-
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .background(Color(0xFFF5F5F5))
-            .padding(16.dp)
-    ) {
-        // 步驟指示器
-        Row(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.SpaceEvenly
-        ) {
-            StepIndicator(
-                number = 1,
-                title = "選擇起點",
-                isActive = showLocationSelection,
-                isCompleted = selectedLocation != null
-            )
-            StepIndicator(
-                number = 2,
-                title = "選擇避難所",
-                isActive = !showLocationSelection && selectedShelter == null,
-                isCompleted = selectedShelter != null
-            )
-            StepIndicator(
-                number = 3,
-                title = "開始導航",
-                isActive = selectedShelter != null,
-                isCompleted = isNavigating
-            )
-        }
-
-        if (showCalibrationDialog) {
-            CompassCalibrationDialog(
-                onDismiss = { showCalibrationDialog = false }
-            )
-        }
-
-        //Spacer(modifier = Modifier.height(8.dp))
-
-        // 主要內容區域
-        Box(modifier = Modifier.weight(1f)) {
-            when {
-                showLocationSelection -> {
-                    LocationSelectionScreen(
-                        locations = frequentLocations,
-                        onLocationSelected = { location ->
-                            selectedLocation = location
-                            showLocationSelection = false
-                            shelterViewModel.loadNearestShelters(location)
-                        },
-                        onBack = onClose  // 新增返回功能
-                    )
-                }
-                selectedShelter == null -> {
-                    ShelterSelectionScreen(
-                        shelters = nearestShelters,
-                        onShelterSelected = { shelter ->
-                            selectedShelter = shelter
-                            selectedLocation?.let { location ->
-                                shelterViewModel.loadRouteForShelter(location, shelter)
-                            }
-                        },
-                        onBack = {
-                            showLocationSelection = true
-                            selectedLocation = null
-                        }
-                    )
-                }
-                else -> {
-                    currentRoute?.let { route ->
-                        NavigationScreen(
-                            route = route,
-                            isNavigating = isNavigating,
-                            onStartNavigation = { isNavigating = true },
-                            onStopNavigation = { isNavigating = false },
-                            onBack = {
-                                selectedShelter = null
-                                isNavigating = false
-                            }
-                        )
-                    } ?: run {
-                        // 顯示載入中或錯誤訊息
-                        Box(
-                            modifier = Modifier.fillMaxSize(),
-                            contentAlignment = Alignment.Center
-                        ) {
-                            CircularProgressIndicator()
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    // 錯誤對話框
-    if (showError) {
-        AlertDialog(
-            onDismissRequest = { showError = false },
-            title = { Text("錯誤") },
-            text = { Text(errorMessage) },
-            confirmButton = {
-                TextButton(onClick = {
-                    showError = false
-                    onClose()
-                }) {
-                    Text("返回")
-                }
-            }
-        )
-    }
-}
-
 @Composable
 fun CompassCalibrationDialog(
     onDismiss: () -> Unit
@@ -1133,169 +967,6 @@ enum class NavigationDirection(val degrees: Float, val label: String) {
     RIGHT(90f, "向右"),
     BACKWARD(180f, "向後"),
     LEFT(270f, "向左")
-}
-
-@Composable
-private fun NavigationScreen(
-    route: PrecomputedRoute,
-    isNavigating: Boolean,
-    onStartNavigation: () -> Unit,
-    onStopNavigation: () -> Unit,
-    onBack: () -> Unit
-) {
-    val context = LocalContext.current
-    val navigationSensorManager = remember { NavigationSensorManager(context) }
-
-    var currentSteps by remember { mutableStateOf(0) }
-    var deviceDirection by remember { mutableStateOf(0f) }
-    var targetDirection by remember { mutableStateOf(route.initialBearing.toFloat()) }
-
-    // 計算方向差異
-    val directionDifference = remember(deviceDirection, targetDirection) {
-        var diff = targetDirection - deviceDirection
-        when {
-            diff > 180f -> diff - 360f
-            diff < -180f -> diff + 360f
-            else -> diff
-        }
-    }
-
-    // 計算剩餘步數
-    val totalSteps = remember(route.distance) {
-        (route.distance / 0.7).toInt() // 假設每步0.7米
-    }
-    var remainingSteps by remember { mutableStateOf(totalSteps) }
-
-    // 監聽感測器
-    LaunchedEffect(isNavigating) {
-        if (isNavigating) {
-            navigationSensorManager.apply {
-                setStepListener { steps ->
-                    currentSteps = steps
-                    remainingSteps = maxOf(0, totalSteps - steps)
-                    Log.d("Navigation", "Steps: $steps, Remaining: $remainingSteps")
-                }
-
-                setDirectionListener { direction ->
-                    deviceDirection = direction
-                    Log.d("Navigation", "Direction: $direction")
-                }
-
-                startListening()
-            }
-        } else {
-            navigationSensorManager.stopListening()
-        }
-    }
-
-    // 清理資源
-    DisposableEffect(Unit) {
-        onDispose {
-            navigationSensorManager.stopListening()
-        }
-    }
-
-    // UI部分
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(16.dp)
-    ) {
-        Row(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.SpaceBetween,
-            verticalAlignment = Alignment.CenterVertically
-        ) {
-            IconButton(onClick = onBack) {
-                Icon(Icons.Default.ArrowBack, "返回")
-            }
-
-            Text(
-                text = "離線導航",
-                style = MaterialTheme.typography.titleLarge
-            )
-
-            Text(
-                text = "        ",
-                style = MaterialTheme.typography.titleLarge
-            )
-
-        }
-
-            Text(
-                text = "${remainingSteps} 步",
-                style = MaterialTheme.typography.displayLarge,
-                modifier = Modifier.align(Alignment.CenterHorizontally)
-            )
-
-        //Spacer(modifier = Modifier.height(16.dp))
-
-        // 指南針介面
-        Box(
-            modifier = Modifier
-                .fillMaxWidth()
-                .aspectRatio(1f)
-                //.padding(5.dp),
-            //contentAlignment = Alignment.Center
-        ) {
-            Canvas(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .rotate(-deviceDirection)
-            ) {
-                // 繪製指南針
-                val center = Offset(size.width / 2f, size.height / 2f)
-                val radius = size.width.coerceAtMost(size.height) / 3f
-
-                // 北方指針
-                drawLine(
-                    color = Color.Red,
-                    start = center,
-                    end = Offset(
-                        x = center.x,
-                        y = center.y - radius
-                    ),
-                    strokeWidth = 4f
-                )
-
-                // 目標方向
-                val targetAngle = Math.toRadians((targetDirection - deviceDirection).toDouble())
-                drawLine(
-                    color = Color(0xFF458F81),
-                    start = center,
-                    end = Offset(
-                        x = center.x + (radius * kotlin.math.sin(targetAngle)).toFloat(),
-                        y = center.y - (radius * kotlin.math.cos(targetAngle)).toFloat()
-                    ),
-                    strokeWidth = 4f
-                )
-            }
-        }
-
-        // 方向提示
-        Text(
-            text = when {
-                directionDifference.absoluteValue <= 15 -> "方向正確"
-                directionDifference > 0 -> "請向右轉 ${directionDifference.toInt()}°"
-                else -> "請向左轉 ${-directionDifference.toInt()}°"
-            },
-            style = MaterialTheme.typography.titleLarge,
-            modifier = Modifier.align(Alignment.CenterHorizontally)
-        )
-
-        Spacer(modifier = Modifier.height(8.dp))
-
-        // 導航控制按鈕
-        Button(
-            onClick = if (isNavigating) onStopNavigation else onStartNavigation,
-            modifier = Modifier.fillMaxWidth(),
-            colors = ButtonDefaults.buttonColors(
-                containerColor = if (isNavigating) Color.LightGray else Color(0xFF458F81)
-            )
-        ) {
-            Text(if (isNavigating) "停止導航" else "開始導航")
-        }
-    }
 }
 
 // 根據進度獲取目標方向
@@ -1331,192 +1002,6 @@ private fun getTargetDirectionForProgress(route: PrecomputedRoute, progress: Flo
     }
 
     return route.initialBearing.toFloat()
-}
-
-@Composable
-fun NavigationControlButton(
-    isNavigating: Boolean,
-    onStartNavigation: () -> Unit,
-    onStopNavigation: () -> Unit
-) {
-    Button(
-        onClick = if (isNavigating) onStopNavigation else onStartNavigation,
-        modifier = Modifier
-            .fillMaxWidth()
-            .padding(vertical = 16.dp),
-        colors = ButtonDefaults.buttonColors(
-            containerColor = if (isNavigating) Color.Red else Color(0xFF458F81)
-        )
-    ) {
-        Text(
-            text = if (isNavigating) "停止導航" else "開始導航",
-            modifier = Modifier.padding(vertical = 8.dp),
-            fontSize = 18.sp
-        )
-    }
-}
-
-@Composable
-private fun NavigationHeader(
-    remainingSteps: Int,
-    totalDistance: Double,
-    onBack: () -> Unit,
-    totalSteps: Int  // 新增參數
-) {
-    Row(
-        modifier = Modifier.fillMaxWidth(),
-        horizontalArrangement = Arrangement.SpaceBetween,
-        verticalAlignment = Alignment.CenterVertically
-    ) {
-        IconButton(onClick = onBack) {
-            Icon(Icons.Default.ArrowBack, contentDescription = "返回")
-        }
-        Column(horizontalAlignment = Alignment.CenterHorizontally) {
-            Text(
-                text = "離線導航",
-                style = MaterialTheme.typography.titleLarge
-            )
-            Text(
-                text = "剩餘距離: ${(totalDistance * remainingSteps / totalSteps).toInt()}米",
-                style = MaterialTheme.typography.bodyMedium
-            )
-        }
-        Spacer(modifier = Modifier.width(48.dp))
-    }
-}
-
-@Composable
-private fun DirectionIndicatorCard(
-    deviceDirection: Float,
-    targetDirection: Float,
-    difference: Float,
-    remainingSteps: Int,
-    totalSteps: Int
-) {
-    Column(
-        modifier = Modifier.fillMaxWidth()
-    ) {
-        Card(
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(vertical = 8.dp),
-            shape = RoundedCornerShape(16.dp)
-        ) {
-            Column(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .padding(16.dp),
-                horizontalAlignment = Alignment.CenterHorizontally
-            ) {
-                // 指南針面板
-                Box(
-                    modifier = Modifier
-                        .size(200.dp)
-                        .padding(16.dp),
-                    contentAlignment = Alignment.Center
-                ) {
-                    // 白色背景圓
-                    Box(
-                        modifier = Modifier
-                            .size(180.dp)
-                            .background(Color.White, CircleShape)
-                    )
-
-                    // 北方標記 (不旋轉)
-                    Text(
-                        text = "N",
-                        color = Color(0xFF458F81),
-                        style = MaterialTheme.typography.bodyLarge,
-                        modifier = Modifier
-                            .align(Alignment.TopCenter)
-                            .padding(top = 4.dp)
-                    )
-
-                    // 指南針指針和目標方向線
-                    Canvas(
-                        modifier = Modifier
-                            .size(160.dp)
-                            .rotate(-deviceDirection)  // 旋轉整個指南針盤面
-                    ) {
-                        val center = Offset(size.width / 2f, size.height / 2f)
-                        val length = size.width / 2f * 0.8f
-
-                        // 指北針 (紅色)
-                        drawLine(
-                            color = Color.Red,
-                            start = center,
-                            end = Offset(
-                                x = center.x,
-                                y = center.y - length
-                            ),
-                            strokeWidth = 3f,
-                            cap = StrokeCap.Round
-                        )
-
-                        // 指南針尾部 (白色)
-                        drawLine(
-                            color = Color.White,
-                            start = center,
-                            end = Offset(
-                                x = center.x,
-                                y = center.y + length * 0.5f
-                            ),
-                            strokeWidth = 3f,
-                            cap = StrokeCap.Round
-                        )
-
-                        // 目標方向線 (綠色)
-                        val targetAngle = Math.toRadians((targetDirection - deviceDirection).toDouble())
-                        drawLine(
-                            color = Color(0xFF458F81),
-                            start = center,
-                            end = Offset(
-                                x = center.x + (length * kotlin.math.sin(targetAngle)).toFloat(),
-                                y = center.y - (length * kotlin.math.cos(targetAngle)).toFloat()
-                            ),
-                            strokeWidth = 2f,
-                            cap = StrokeCap.Round
-                        )
-                    }
-                }
-
-                // 方向指示文字
-                Text(
-                    text = if (difference.absoluteValue <= 15) "方向正確"
-                    else "請向${if (difference > 0) "右" else "左"}轉 ${difference.absoluteValue.toInt()}°",
-                    style = MaterialTheme.typography.titleMedium,
-                    color = if (difference.absoluteValue <= 15) Color(0xFF458F81) else Color.Red,
-                    modifier = Modifier.padding(vertical = 8.dp)
-                )
-
-                Spacer(modifier = Modifier.height(16.dp))
-
-                // 步數顯示
-                Text(
-                    text = remainingSteps.toString(),
-                    style = MaterialTheme.typography.displayLarge,
-                    fontWeight = FontWeight.Bold
-                )
-                Text(
-                    text = "剩餘步數",
-                    style = MaterialTheme.typography.titleMedium,
-                    color = Color.Gray
-                )
-
-                // 進度條
-                LinearProgressIndicator(
-                    progress = ((totalSteps - remainingSteps).toFloat() / totalSteps).coerceIn(0f, 1f),
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .padding(vertical = 16.dp)
-                        .height(8.dp)
-                        .clip(RoundedCornerShape(4.dp)),
-                    color = Color(0xFF458F81),
-                    trackColor = Color(0xFFEEEEEE)
-                )
-            }
-        }
-    }
 }
 
 @Composable
@@ -2955,141 +2440,6 @@ private fun requestCallPermission(context: android.content.Context) {
 
 private const val REQUEST_CALL_PERMISSION = 1001
 
-class SupplyViewModel(private val repository: SupplyRepository, private val context: Context) : ViewModel() {
-    private val _supplies = MutableStateFlow<List<SupplyItem>>(emptyList())
-    val supplies: StateFlow<List<SupplyItem>> = _supplies.asStateFlow()
-
-    private val _saveStatus = MutableStateFlow<SaveStatus>(SaveStatus.Idle)
-    val saveStatus: StateFlow<SaveStatus> = _saveStatus.asStateFlow()
-
-    init {
-        loadSupplies()
-    }
-
-    fun addSupply(supply: SupplyItem) {
-        viewModelScope.launch {
-            try {
-                _saveStatus.value = SaveStatus.Saving
-                Log.d("SupplyViewModel", "開始儲存物資: ${supply.name}")
-
-                // 處理圖片
-                val imagePath = supply.imageUriString?.let { uriString ->
-                    try {
-                        val uri = Uri.parse(uriString)
-                        saveImageToInternalStorage(uri)
-                    } catch (e: Exception) {
-                        Log.e("SupplyViewModel", "圖片處理失敗", e)
-                        null
-                    }
-                }
-
-                // 建立新的 SupplyItem，確保有正確的 ID 和圖片路徑
-                val newSupply = supply.copy(
-                    id = supply.id.takeIf { it.isNotEmpty() } ?: UUID.randomUUID().toString(),
-                    imageUriString = imagePath
-                )
-
-                // 儲存到 Repository
-                repository.addSupply(newSupply)
-
-                Log.d("SupplyViewModel", "物資儲存成功")
-                _saveStatus.value = SaveStatus.Success
-                loadSupplies() // 重新載入列表
-            } catch (e: Exception) {
-                Log.e("SupplyViewModel", "儲存物資失敗", e)
-                _saveStatus.value = SaveStatus.Error(e.message ?: "未知錯誤")
-            }
-        }
-    }
-
-    private suspend fun saveImageToInternalStorage(uri: Uri): String = withContext(Dispatchers.IO) {
-        try {
-            val inputStream = context.contentResolver.openInputStream(uri)
-                ?: throw IOException("無法打開圖片來源")
-
-            val imageDir = File(context.getExternalFilesDir(Environment.DIRECTORY_PICTURES), "supply_images").apply {
-                if (!exists()) mkdirs()
-            }
-
-            val imageFile = File(imageDir, "IMG_${System.currentTimeMillis()}.jpg")
-
-            inputStream.use { input ->
-                imageFile.outputStream().use { output ->
-                    input.copyTo(output)
-                }
-            }
-
-            Log.d("SupplyViewModel", "圖片保存成功: ${imageFile.absolutePath}")
-            return@withContext imageFile.absolutePath
-        } catch (e: Exception) {
-            Log.e("SupplyViewModel", "保存圖片失敗", e)
-            throw e
-        }
-    }
-
-    fun updateSupply(supply: SupplyItem) {
-        viewModelScope.launch {
-            try {
-                _saveStatus.value = SaveStatus.Saving
-                repository.updateSupply(supply)
-                _saveStatus.value = SaveStatus.Success
-                loadSupplies()
-            } catch (e: Exception) {
-                _saveStatus.value = SaveStatus.Error(e.message ?: "更新失敗")
-            }
-        }
-    }
-
-    fun deleteSupply(supplyId: String) {
-        viewModelScope.launch {
-            try {
-                repository.deleteSupply(supplyId)
-                loadSupplies()
-            } catch (e: Exception) {
-                Log.e("SupplyViewModel", "刪除失敗", e)
-            }
-        }
-    }
-
-    private fun loadSupplies() {
-        viewModelScope.launch {
-            try {
-                val loadedSupplies = repository.getAllSupplies()
-                _supplies.value = loadedSupplies.distinctBy { it.id }
-            } catch (e: Exception) {
-                Log.e("SupplyViewModel", "載入物資清單失敗", e)
-            }
-        }
-    }
-
-    fun resetSaveStatus() {
-        _saveStatus.value = SaveStatus.Idle
-    }
-
-    fun getEmergencySupplyInfo(): String {
-        return buildString {
-            val urgentSupplies = supplies.value.filter { supply ->
-                try {
-                    val count = supply.number.toIntOrNull() ?: 0
-                    count <= 3  // 數量小於等於3的視為緊急物資
-                } catch (e: NumberFormatException) {
-                    false
-                }
-            }
-
-            if (urgentSupplies.isEmpty()) {
-                appendLine("目前無緊急物資需求")
-            } else {
-                appendLine("緊急物資需求：")
-                urgentSupplies.forEach { supply ->
-                    appendLine("- ${supply.name}: 剩餘 ${supply.number} 個")
-                }
-            }
-        }
-    }
-
-}
-
 sealed class SaveStatus {
     object Idle : SaveStatus()
     object Saving : SaveStatus()
@@ -3112,7 +2462,24 @@ class SupplyViewModelFactory(private val supplyRepository: SupplyRepository, pri
 @Composable
 fun DefaultPreview() {
     val context = LocalContext.current
-    val supplyRepository = SupplyRepository()
+    val fakeSupplyDao = object : com.example.islanddisastersurvivalguideapp.data.local.dao.SupplyDao {
+        override fun getAllSupplies(): kotlinx.coroutines.flow.Flow<List<SupplyItem>> {
+            // 回傳一個空的清單，讓 UI 顯示空白狀態
+            return flowOf(emptyList())
+        }
+        override suspend fun insertSupply(supply: SupplyItem) {
+            // 假的，不做事
+        }
+        override suspend fun deleteSupply(supply: SupplyItem) {
+            // 假的，不做事
+        }
+        override suspend fun deleteSupplyById(supplyId: String) {
+            // 假的，不做事
+        }
+    }
+
+    // 2. 把假的 DAO 塞給 Repository
+    val supplyRepository = SupplyRepository(fakeSupplyDao)
     val supplyViewModel = SupplyViewModel(supplyRepository, context)
     val shelterViewModel = ShelterViewModel(context.applicationContext as Application)
 
