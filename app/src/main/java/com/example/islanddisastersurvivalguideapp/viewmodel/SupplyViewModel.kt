@@ -20,7 +20,7 @@ import java.util.UUID
 
 import android.content.Context;
 
-import com.example.disasterpreparednessapp.data.repository.SupplyRepository;
+import com.example.islanddisastersurvivalguideapp.data.repository.SupplyRepository;
 import com.example.islanddisastersurvivalguideapp.SaveStatus;
 import com.example.islanddisastersurvivalguideapp.data.model.SupplyItem;
 

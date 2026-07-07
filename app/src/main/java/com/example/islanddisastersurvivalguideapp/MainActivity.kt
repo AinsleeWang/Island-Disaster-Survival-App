@@ -116,7 +116,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import coil.compose.rememberImagePainter
 import coil.transform.RoundedCornersTransformation
-import com.example.disasterpreparednessapp.data.repository.SupplyRepository
+import com.example.islanddisastersurvivalguideapp.data.repository.SupplyRepository
 import com.example.islanddisastersurvivalguideapp.data.local.AppDatabase
 import com.example.islanddisastersurvivalguideapp.data.model.FrequentLocation
 import com.example.islanddisastersurvivalguideapp.data.model.LocationType

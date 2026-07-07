@@ -1,4 +1,4 @@
-package com.example.disasterpreparednessapp.data.repository
+package com.example.islanddisastersurvivalguideapp.data.repository
 
 
 import android.util.Log

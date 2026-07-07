@@ -101,7 +101,6 @@ islanddisastersurvivalguideApp3/
 |---|---|---|
 | High | `MorseCodePlayer.kt` | Morse map incomplete — only digits 0–9, letters N and E defined; most alphabet missing |
 | High | `MorseAlarmViewModel` | Location hardcoded to Kaohsiung test coordinates; not connected to actual GPS |
-| Medium | `SupplyRepository.kt:1` | Wrong package name (`disasterpreparednessapp` vs `islanddisastersurvivalguideapp`) — incomplete rename |
 | Medium | `MainActivity.kt` | ~101KB single file; contains too many screens — needs splitting |
 | Low | Date fields | Birth date stored as unvalidated string (`"YYYY-M-D"`) |
 | Low | Tests | Only template test files exist; no real test coverage |
@@ -119,7 +118,7 @@ islanddisastersurvivalguideApp3/
 4. Implement `getPrecomputedRoutes()` in `ShelterViewModel`
 5. Complete disaster handbook download and offline storage
 6. Wire up `EmergencyTypeCard` onClick action
-7. Fix wrong package name in `SupplyRepository`
+7. ~~Fix wrong package name in `SupplyRepository`~~ (fixed 2026-07-06)
 
 **P2 — Quality and maintainability:**
 8. Split `MainActivity.kt` into per-screen files
